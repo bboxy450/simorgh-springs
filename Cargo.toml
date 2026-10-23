@@ -10,7 +10,7 @@ repository = "https://github.com/bboxy450/simorgh-springs"
 readme = "README.md"
 keywords = ["springs", "openstreetmap", "wikidata", "geodata"]
 categories = ["science::geo", "command-line-utilities"]
-include = ["src/**", "tests/**", "fixtures/**", "Cargo.toml", "Cargo.lock", "README.md", "LICENSE"]
+include = ["/src/**", "/tests/**", "/fixtures/**", "/Cargo.toml", "/Cargo.lock", "/README.md", "/LICENSE"]
 
 [dependencies]
 async-stream = "0.3"
