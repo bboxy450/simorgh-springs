@@ -37,6 +37,7 @@ pub fn merge(records: impl IntoIterator<Item = Record>) -> Vec<Spring> {
             r.source,
             r.source_ref.clone(),
             serde_json::to_string(r).expect("finite record"),
+            r.wikidata.clone(),
         )
     });
     rows.dedup_by(|b, a| a.source == b.source && a.source_ref == b.source_ref);

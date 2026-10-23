@@ -292,3 +292,17 @@ fn cli_rejects_invalid_source_and_bbox() {
         assert!(!output.status.success());
     }
 }
+
+#[test]
+fn merged_json_preserves_provenance_without_internal_link_metadata() {
+    let mut osm = record(SourceId::Osm, "node/1", Kind::Spring, 38.0, -122.0);
+    osm.wikidata = Some("Q1".into());
+    let merged = merge([
+        osm,
+        record(SourceId::Wikidata, "Q1", Kind::Spring, -38.0, 122.0),
+    ]);
+    let json = serde_json::to_value(&merged[0]).unwrap();
+    assert!(json.get("wikidata").is_none());
+    assert_eq!(json["sources"][1]["ref"], "Q1");
+    assert_eq!(json["sources"][0]["source"], "osm");
+}

@@ -64,7 +64,7 @@ pub struct Record {
     pub source_url: String,
     pub source_modified_at: Option<String>,
     /// OSM's explicit Wikidata link, used before distance matching.
-    #[serde(default, skip_serializing_if = "Option::is_none")]
+    #[serde(default, skip_serializing)]
     pub wikidata: Option<String>,
 }
 
