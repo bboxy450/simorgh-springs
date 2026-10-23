@@ -1,0 +1,301 @@
+feature_id|feature_name|feature_class|state_name|state_numeric|county_name|county_numeric|map_name|date_created|date_edited|bgn_type|bgn_authority|bgn_date|prim_lat_dms|prim_long_dms|prim_lat_dec|prim_long_dec|source_lat_dms|source_long_dms|source_lat_dec|source_long_dec
+457|A Ninetysix Spring|Spring|Arizona|04|Gila|007|Carrizo|02/08/1980|04/18/2011||||335622N|1101822W|33.9394555|-110.3061979|||0.0|0.0
+465|A-ninetyone Spring|Spring|Arizona|04|Navajo|017|Alchesay Flat|02/08/1980|||||335244N|1095503W|33.8789379|-109.9176|||0.0|0.0
+477|Adadka Spring|Spring|Arizona|04|Navajo|017|Shonto NW|02/08/1980|04/18/2011||||364133N|1103750W|36.692425|-110.6304392|||0.0|0.0
+510|Agua Dulce Spring|Spring|Arizona|04|Pima|019|Agua Dulce Mountains|11/08/2023|11/08/2023||||320122N|1130833W|32.02288|-113.14246|||0.0|0.0
+514|Aguajita Spring|Spring|Arizona|04|Pima|019|Quitobaquito Springs|02/08/1980|04/18/2011||||315623N|1130040W|31.9396344|-113.0112486|||0.0|0.0
+529|Ah Na Na Betoh|Spring|Arizona|04|Navajo|017|Hard Rocks|02/08/1980|04/18/2011||||360513N|1102254W|36.086856|-110.3817871|||0.0|0.0
+546|Al Tse Toh|Spring|Arizona|04|Apache|001|Sweetwater Mesa|02/08/1980|04/18/2011||||363336N|1095712W|36.5600372|-109.9533142|||0.0|0.0
+554|Alamo Spring|Spring|Arizona|04|Cochise|003|Dos Cabezas|02/08/1980|11/10/2016||||321311N|1093036W|32.21978|-109.51003|||0.0|0.0
+555|Alamo Spring|Spring|Arizona|04|Graham|009|Bassett Peak|02/08/1980|04/18/2011||||323249N|1101825W|32.5468493|-110.3068389|||0.0|0.0
+556|Alamo Spring|Spring|Arizona|04|La Paz|012|Owl Head|02/08/1980|||||332439N|1135525W|33.4108669|-113.9235456|||0.0|0.0
+557|Alamo Spring|Spring|Arizona|04|Mohave|015|Signal Mountain|02/08/1980|||||342834N|1133047W|34.4761285|-113.5129847|||0.0|0.0
+558|Alamo Spring|Spring|Arizona|04|Apache|001|Many Farms SW|02/08/1980|04/18/2011||||362019N|1094115W|36.3386669|-109.6874937|||0.0|0.0
+569|Alboyd Spring|Spring|Arizona|04|Pima|019|Galleta Flat West|02/08/1980|04/18/2011||||320550N|1102812W|32.0973322|-110.469891|||0.0|0.0
+577|Alder Spring|Spring|Arizona|04|Graham|009|Stockton Pass|02/08/1980|04/18/2011||||323623N|1095027W|32.6063269|-109.8407558|||0.0|0.0
+591|Alkali Spring|Spring|Arizona|04|Yavapai|025|Governors Peak|02/08/1980|04/18/2011||||335932N|1122214W|33.9921918|-112.370479|||0.0|0.0
+592|Alkali Spring|Spring|Arizona|04|Mohave|015|Warm Springs|02/08/1980|04/18/2011||||345803N|1141744W|34.9674066|-114.295572|||0.0|0.0
+615|Alta Spring|Spring|Arizona|04|Mohave|015|White Hills East|02/08/1980|04/18/2011||||353758N|1141913W|35.6328398|-114.3202471|||0.0|0.0
+624|Amazon Spring|Spring|Arizona|04|Yavapai|025|Morgan Butte|02/08/1980|04/18/2011||||340518N|1123303W|34.0883801|-112.5508363|||0.0|0.0
+632|Amos Spring|Spring|Arizona|04|Gila|007|Canyon Day|02/08/1980|||||334751N|1100712W|33.7975508|-110.1201011|||0.0|0.0
+633|Amos Spring|Spring|Arizona|04|Mohave|015|Amos Point|02/08/1980|04/18/2011||||355631N|1133138W|35.9418275|-113.5271018|||0.0|0.0
+642|Anderson Spring|Spring|Arizona|04|Graham|009|Booger Canyon|02/08/1980|11/12/2016||||325936N|1102543W|32.9934089|-110.4285717|||0.0|0.0
+643|Anderson Spring|Spring|Arizona|04|Gila|007|Coolidge Dam|02/08/1980|04/17/2017||||331247N|1103202W|33.21316|-110.53397|||0.0|0.0
+644|Anderson Spring|Spring|Arizona|04|Gila|007|Cone Butte|02/08/1980|04/18/2011||||335211N|1101143W|33.8697102|-110.1952698|||0.0|0.0
+645|Anderson Spring|Spring|Arizona|04|Yavapai|025|Copperopolis|02/08/1980|04/18/2011||||340314N|1122440W|34.0537952|-112.4112313|||0.0|0.0
+651|Andrus Spring|Spring|Arizona|04|Mohave|015|Castle Peak|02/08/1980|04/18/2011||||361439N|1133013W|36.244179|-113.5035937|||0.0|0.0
+654|Angel Trail Spring|Spring|Arizona|04|Graham|009|Markham Creek|02/08/1980|04/18/2011||||330514N|1094851W|33.0873011|-109.8143001|||0.0|0.0
+660|Anita Spring|Spring|Arizona|04|Cochise|003|Chiricahua Peak|02/08/1980|04/18/2011||||315105N|1091707W|31.8514833|-109.2852257|||0.0|0.0
+689|Antelope Spring|Spring|Arizona|04|Cochise|003|Hay Mountain|02/08/1980|11/10/2016||||314026N|1095405W|31.674|-109.90144|||0.0|0.0
+690|Antelope Spring|Spring|Arizona|04|Yavapai|025|Yarnell|02/08/1980|04/18/2011||||341243N|1124230W|34.2119122|-112.7082448|||0.0|0.0
+691|Antelope Spring|Spring|Arizona|04|Mohave|015|Warm Springs|02/08/1980|04/18/2011||||345803N|1141825W|34.9674357|-114.3069693|||0.0|0.0
+692|Antelope Spring|Spring|Arizona|04|Mohave|015|Lost Spring Mountain West|02/08/1980|||||365636N|1131440W|36.9433177|-113.2443917|||0.0|0.0
+693|Antelope Springs|Spring|Arizona|04|Mohave|015|Mount Tipton|02/08/1980|||||353602N|1141211W|35.6005468|-114.2030137|||0.0|0.0
+706|Antelope Trail Spring|Spring|Arizona|04|Apache|001|Beeshsikad Spring|02/08/1980|04/18/2011||||355438N|1095900W|35.910614|-109.9833633|||0.0|0.0
+719|Antler Spring|Spring|Arizona|04|Mohave|015|Austin Peak|02/08/1980|||||350407N|1133110W|35.0686182|-113.5193796|||0.0|0.0
+738|Apache Spring|Spring|Arizona|04|Cochise|003|Bowie Mountain North|02/08/1980|11/10/2016||||320844N|1092626W|32.14569|-109.44063|||0.0|0.0
+739|Apache Spring|Spring|Arizona|04|Cochise|003|Simmons Peak|02/08/1980|12/10/2016||||321153N|1093803W|32.19818|-109.63424|||0.0|0.0
+740|Apache Spring|Spring|Arizona|04|Graham|009|Greasewood Mountain|02/08/1980|04/18/2011||||322845N|1094732W|32.4792451|-109.7922781|||0.0|0.0
+741|Apache Spring|Spring|Arizona|04|Gila|007|Christmas|02/08/1980|||||330131N|1104448W|33.0253429|-110.7467717|||0.0|0.0
+742|Apache Spring|Spring|Arizona|04|Maricopa|013|New River SE|02/08/1980|04/18/2011||||335140N|1120024W|33.861146|-112.0065442|||0.0|0.0
+776|Arizona Spring|Spring|Arizona|04|Mohave|015|Mount Tipton|02/08/1980|04/18/2011||||353201N|1141318W|35.5336203|-114.2217395|||0.0|0.0
+805|Arroweed Spring|Spring|Arizona|04|Mohave|015|Austin Peak|02/08/1980|||||350624N|1133141W|35.1066729|-113.5279912|||0.0|0.0
+808|Arrowhead Spring|Spring|Arizona|04|Mohave|015|Signal Mountain|02/08/1980|||||342638N|1133032W|34.4439068|-113.5088177|||0.0|0.0
+827|Asa Spring|Spring|Arizona|04|Mohave|015|Arrastra Mountain|02/08/1980|04/18/2011||||342551N|1132326W|34.430882|-113.3906933|||0.0|0.0
+846|Ash Creek Spring|Spring|Arizona|04|Mohave|015|Mount Tipton|02/08/1980|04/18/2011||||353558N|1141057W|35.5995362|-114.1824927|||0.0|0.0
+853|Ash Spring|Spring|Arizona|04|Pinal|021|Rawhide Mountain|02/08/1980|||||330455N|1102757W|33.0820068|-110.4659302|||0.0|0.0
+854|Ash Timber Spring|Spring|Arizona|04|Graham|009|Markham Creek|02/08/1980|04/18/2011||||330549N|1094928W|33.0969058|-109.8244438|||0.0|0.0
+867|Aspen Spring|Spring|Arizona|04|Navajo|017|Chilchinbito Canyon|02/08/1980|04/18/2011||||362624N|1100053W|36.4400257|-110.014619|||0.0|0.0
+868|Aspen Spring|Spring|Arizona|04|Navajo|017|Tall Mountain|02/08/1980|04/18/2011||||364829N|1103109W|36.8079351|-110.5190842|||0.0|0.0
+871|Assan Dechali Spring|Spring|Arizona|04|Navajo|017|Rotten Bananas Butte|02/08/1980|04/18/2011||||351334N|1101751W|35.2261953|-110.2976086|||0.0|0.0
+872|Astin Spring|Spring|Arizona|04|Cochise|003|San Bernardino Ranch|02/08/1980|11/10/2016||||312145N|1091603W|31.36245|-109.26748|||0.0|0.0
+874|Atkin Spring|Spring|Arizona|04|Mohave|015|Wolf Hole Mountain West|02/08/1980|04/18/2011||||365155N|1134226W|36.8652079|-113.7071805|||0.0|0.0
+879|Atlantic Spring|Spring|Arizona|04|Mohave|015|Kingman|02/08/1980|04/18/2011||||351209N|1140433W|35.2025575|-114.0759371|||0.0|0.0
+889|Aulson Spring|Spring|Arizona|04|Mohave|015|Kaibab|02/08/1980|04/18/2011||||365525N|1123907W|36.923576|-112.652054|||0.0|0.0
+894|Avispa Spring|Spring|Arizona|04|Cochise|003|Rustler Park|02/08/1980|04/18/2011||||315402N|1092209W|31.900531|-109.3690604|||0.0|0.0
+899|Awatovi Spring|Spring|Arizona|04|Navajo|017|Star Mountain|06/27/1984|04/18/2011|Official|Board Decision|01/01/1989|354325N|1101643W|35.7236182|-110.2787391|||0.0|0.0
+912|Ba Ha Zohnnie Betoh|Spring|Arizona|04|Navajo|017|Rocky Ridge SW|02/08/1980|04/18/2011||||360241N|1103737W|36.044797|-110.6270318|||0.0|0.0
+930|Jwa Qwaw Gwa Spring|Spring|Arizona|04|Coconino|005|Antelope Point|06/27/1984|04/18/2011|Official|Board Decision|01/01/1989|360435N|1123247W|36.0763186|-112.546365|||0.0|0.0
+933|Bad Luck Spring|Spring|Arizona|04|Gila|007|Cone Butte|02/08/1980|04/18/2011||||335143N|1101136W|33.8620464|-110.193391|||0.0|0.0
+941|Badger Spring|Spring|Arizona|04|Coconino|005|Badger Spring|02/08/1980|04/18/2011||||353826N|1111147W|35.6405982|-111.1963867|||0.0|0.0
+942|Badger Spring|Spring|Arizona|04|Coconino|005|Bat Spring|02/08/1980|04/18/2011||||360239N|1105158W|36.0441325|-110.8660684|||0.0|0.0
+943|Badger Spring|Spring|Arizona|04|Coconino|005|Whirlwind Rock|02/08/1980|04/18/2011||||363003N|1104558W|36.500821|-110.7662432|||0.0|0.0
+944|Badger Spring|Spring|Arizona|04|Coconino|005|Navajo Bridge|02/08/1980|04/18/2011||||364854N|1114303W|36.8150164|-111.7176277|||0.0|0.0
+951|Baha Spring|Spring|Arizona|04|Navajo|017|Alchesay Flat|02/08/1980|||||335602N|1095812W|33.9339366|-109.9701024|||0.0|0.0
+952|Baha Spring Number Two|Spring|Arizona|04|Navajo|017|Alchesay Flat|02/08/1980|||||335551N|1095825W|33.9308811|-109.9737136|||0.0|0.0
+965|Baker Spring|Spring|Arizona|04|Cochise|003|Guadalupe Spring|02/08/1980|04/18/2011||||312257N|1090333W|31.3824259|-109.0590988|||0.0|0.0
+966|Baker Spring|Spring|Arizona|04|Yavapai|025|Jerome Canyon|02/08/1980|04/18/2011||||343958N|1123512W|34.6660395|-112.58658|||0.0|0.0
+967|Baker Spring|Spring|Arizona|04|Mohave|015|Mount Nutt|02/08/1980|04/18/2011||||350109N|1141739W|35.0191555|-114.2941889|||0.0|0.0
+991|Banana Spring|Spring|Arizona|04|Gila|007|Round Top Mountain|02/08/1980|||||335254N|1100020W|33.8817157|-110.0056572|||0.0|0.0
+1027|Barfoot Spring|Spring|Arizona|04|Cochise|003|Rustler Park|02/08/1980|06/01/2017||||315454N|1091641W|31.9151189|-109.2781307|||0.0|0.0
+1033|Barrel Spring|Spring|Arizona|04|Cochise|003|Cochise Head|02/08/1980|04/18/2011||||320030N|1091806W|32.0082706|-109.3016014|||0.0|0.0
+1034|Barrel Spring|Spring|Arizona|04|Yavapai|025|Yarnell|02/08/1980|04/18/2011||||341127N|1124052W|34.1907703|-112.6811571|||0.0|0.0
+1035|Barrel Spring|Spring|Arizona|04|Mohave|015|Austin Peak|02/08/1980|08/27/2020||||350456N|1133054W|35.0823354|-113.5151106|||0.0|0.0
+1044|Basin Spring|Spring|Arizona|04|Coconino|005|Little Park Lake|02/08/1980|||||361559N|1120629W|36.2663709|-112.1079486|||0.0|0.0
+1056|Bass Spring|Spring|Arizona|04|Pinal|021|Tortolita Mountains|02/08/1980|04/18/2011||||323148N|1110331W|32.5301145|-111.05867|||0.0|0.0
+1066|Bat Spring|Spring|Arizona|04|Coconino|005|Bat Spring|02/08/1980|||||360139N|1105052W|36.027499|-110.8476403|||0.0|0.0
+1073|Bateman Spring|Spring|Arizona|04|Mohave|015|McCracken Peak|02/08/1980|04/18/2011||||342902N|1134652W|34.4839187|-113.781014|||0.0|0.0
+1087|Be He Lini Spring|Spring|Arizona|04|Apache|001|Wide Ruins|02/08/1980|04/18/2011||||352722N|1092735W|35.4561803|-109.4598186|||0.0|0.0
+1095|Beale Spring|Spring|Arizona|04|Mohave|015|Kingman|02/08/1980|04/18/2011||||351216N|1140459W|35.2043913|-114.0830635|||0.0|0.0
+1102|Bean Spring|Spring|Arizona|04|Navajo|017|Polacca|02/08/1980|04/18/2011||||355218N|1102241W|35.871804|-110.3781092|||0.0|0.0
+1132|Bear Playground Spring|Spring|Arizona|04|Navajo|017|Long Tom Canyon|02/08/1980|04/18/2011||||340205N|1100731W|34.0347841|-110.1253582|||0.0|0.0
+1134|Bear Spring|Spring|Arizona|04|Graham|009|Webb Peak|02/08/1980|04/18/2011||||323836N|1095420W|32.6433716|-109.905589|||0.0|0.0
+1135|Bear Spring|Spring|Arizona|04|Cochise|003|Chiricahua Peak|02/08/1980|04/18/2011||||314924N|1091901W|31.8233476|-109.316817|||0.0|0.0
+1136|Bear Spring|Spring|Arizona|04|Pima|019|Galleta Flat West|02/08/1980|01/30/2017||||320605N|1102924W|32.1013459|-110.4899855|||0.0|0.0
+1137|Bear Spring|Spring|Arizona|04|Cochise|003|Bowie Mountain North|02/08/1980|11/10/2016||||320819N|1092535W|32.13868|-109.42644|||0.0|0.0
+1138|Bear Spring|Spring|Arizona|04|Graham|009|Weber Peak|02/08/1980|04/17/2017||||325821N|1093735W|32.97256|-109.62645|||0.0|0.0
+1139|Bear Spring|Spring|Arizona|04|Graham|009|Bryce Mountain|02/08/1980|04/17/2017||||330209N|1094108W|33.03576|-109.68567|||0.0|0.0
+1140|Bear Spring|Spring|Arizona|04|Navajo|017|Alchesay Flat|02/08/1980|07/28/2020||||335257N|1095921W|33.882367|-109.9890371|||0.0|0.0
+1141|Bear Spring|Spring|Arizona|04|Gila|007|Round Top Mountain|02/08/1980|04/18/2011||||335909N|1100449W|33.9857158|-110.0803512|||0.0|0.0
+1142|Bear Spring|Spring|Arizona|04|Apache|001|Black Rock Butte|02/08/1980|04/18/2011||||361139N|1091748W|36.1941259|-109.2965631|||0.0|0.0
+1143|Bear Spring|Spring|Arizona|04|Coconino|005|Kanabownits Spring|02/08/1980|08/27/2020||||362212N|1121024W|36.3699249|-112.1733395|||0.0|0.0
+1145|Bear Springs|Spring|Arizona|04|Graham|009|Shingle Mill Mountain|02/08/1980|04/17/2017||||325100N|1095657W|32.85007|-109.94926|||0.0|0.0
+1158|Bearwallow Spring|Spring|Arizona|04|Graham|009|Webb Peak|02/08/1980|04/17/2017|Official|Board Decision|01/01/1975|324204N|1095238W|32.70122|-109.87722|||0.0|0.0
+1172|Beda Tohie|Spring|Arizona|04|Navajo|017|Long House Valley|02/08/1980|||||363228N|1102903W|36.5411098|-110.4840283|||0.0|0.0
+1181|Bee Spring|Spring|Arizona|04|Graham|009|Mount Turnbull|02/08/1980|04/18/2011||||330600N|1101846W|33.099934|-110.3128794|||0.0|0.0
+1182|Bee Spring|Spring|Arizona|04|Coconino|005|Timp Point|02/08/1980|08/27/2020||||362702N|1121905W|36.4505792|-112.3181724|||0.0|0.0
+1184|Bee Springs|Spring|Arizona|04|Mohave|015|Wabayuma Peak|02/08/1980|04/18/2011||||345308N|1135458W|34.885691|-113.916188|||0.0|0.0
+1187|Beech Spring|Spring|Arizona|04|Yavapai|025|Yarnell|02/08/1980|08/27/2020||||341232N|1124058W|34.2089916|-112.6826651|||0.0|0.0
+1189|Beecher Spring|Spring|Arizona|04|Mohave|015|Beecher Canyon|02/08/1980|04/18/2011||||344316N|1135005W|34.7210519|-113.8347232|||0.0|0.0
+1193|Beehbito Spring|Spring|Arizona|04|Apache|001|Piney Hill|02/08/1980|04/05/2023||||355048N|1091106W|35.8466559|-109.1848722|||0.0|0.0
+1205|Beeshsikad Spring|Spring|Arizona|04|Apache|001|Beeshsikad Spring|02/08/1980|||||355533N|1095356W|35.9258394|-109.899004|||0.0|0.0
+1218|Bell Butte Springs|Spring|Arizona|04|Navajo|017|Hauke Mesa|02/08/1980|06/13/2024||||353344N|1102049W|35.5622315|-110.3470742|||0.0|0.0
+1227|Bells Spring|Spring|Arizona|04|Yavapai|025|Bismarck Mesa|02/08/1980|04/18/2011||||342453N|1124635W|34.4146947|-112.7764619|||0.0|0.0
+1239|Benedict Spring|Spring|Arizona|04|Gila|007|Velasquez Butte|02/08/1980|||||334337N|1100550W|33.7269964|-110.0973212|||0.0|0.0
+1243|Bennett Spring|Spring|Arizona|04|Coconino|005|Two Red Mesas|02/08/1980|||||363908N|1105834W|36.65222|-110.9759765|||0.0|0.0
+1278|Bidaaii To Haali|Spring|Arizona|04|Coconino|005|White Water Tank|02/08/1980|04/18/2011||||353103N|1110149W|35.5175266|-111.0301744|||0.0|0.0
+1334|Big Mountain Ruin Spring|Spring|Arizona|04|Navajo|017|Rocky Ridge NE|02/08/1980|04/18/2011||||361312N|1103202W|36.2200514|-110.5338879|||0.0|0.0
+1335|Big Mountain Spring|Spring|Arizona|04|Navajo|017|Big Mountain Dam|02/08/1980|04/18/2011||||361311N|1102834W|36.2196528|-110.4761028|||0.0|0.0
+1337|Big Pasture Spring|Spring|Arizona|04|Mohave|015|Pilgrim Wash|02/08/1980|||||345607N|1134005W|34.9352867|-113.6679947|||0.0|0.0
+1353|Big Rock Spring|Spring|Arizona|04|Gila|007|Mescal Warm Spring|02/08/1980|04/18/2011||||331210N|1104404W|33.2027501|-110.7345796|||0.0|0.0
+1362|Big Sandy Spring|Spring|Arizona|04|Mohave|015|Signal Mountain|02/08/1980|08/27/2020||||342855N|1133127W|34.4819345|-113.5240311|||0.0|0.0
+1368|Big Spring|Spring|Arizona|04|Graham|009|Buford Hill|02/08/1980|04/18/2011||||324745N|1100805W|32.795804|-110.1345973|||0.0|0.0
+1369|Big Spring|Spring|Arizona|04|Graham|009|Pima|02/08/1980|04/18/2011||||325619N|1094819W|32.9387116|-109.8053458|||0.0|0.0
+1370|Big Spring|Spring|Arizona|04|Graham|009|Bryce Mountain|02/08/1980|04/18/2011||||330153N|1094157W|33.0314808|-109.699304|||0.0|0.0
+1371|Big Spring|Spring|Arizona|04|Maricopa|013|Baldy Mountain|02/08/1980|04/18/2011||||334838N|1121912W|33.8105994|-112.3201263|||0.0|0.0
+1372|Big Spring|Spring|Arizona|04|Coconino|005|Hockey Puck Spring|02/08/1980|04/18/2011||||355959N|1131231W|35.9998185|-113.2085191|||0.0|0.0
+1373|Big Spring|Spring|Arizona|04|Mohave|015|Mount Logan|02/08/1980|04/18/2011||||362013N|1131128W|36.3370091|-113.1909976|||0.0|0.0
+1392|Big Trough Spring|Spring|Arizona|04|Gila|007|Popcorn Canyon|02/08/1980|04/18/2011||||334203N|1102105W|33.7008348|-110.3515129|||0.0|0.0
+1401|Big Willow Spring|Spring|Arizona|04|Apache|001|Big Willow Spring Canyon|02/08/1980|04/18/2011||||354804N|1095610W|35.8011189|-109.9362276|||0.0|0.0
+1411|Bill Simms Spring|Spring|Arizona|04|Graham|009|Natanes Mountains NW|02/08/1980|||||332517N|1095604W|33.4214429|-109.9345336|||0.0|0.0
+1417|Billingsley Spring|Spring|Arizona|04|Yavapai|025|Date|02/08/1980|04/18/2011||||341627N|1125635W|34.2742365|-112.943071|||0.0|0.0
+1420|Billy Goat Spring|Spring|Arizona|04|Apache|001|Window Rock|02/08/1980|04/18/2011||||354229N|1090405W|35.7079507|-109.067938|||0.0|0.0
+1426|Billy Spring|Spring|Arizona|04|Yavapai|025|Thorn Peak|02/08/1980|04/18/2011||||342806N|1130832W|34.4683509|-113.1422712|||0.0|0.0
+1427|Billy Spring|Spring|Arizona|04|Coconino|005|Moenave SE|02/08/1980|04/18/2011||||360710N|1111714W|36.1195112|-111.2871473|||0.0|0.0
+1432|Bird Spring|Spring|Arizona|04|Yavapai|025|Black Canyon City|02/08/1980|04/18/2011||||340600N|1121347W|34.0999434|-112.2297475|||0.0|0.0
+1433|Bird Springs|Spring|Arizona|04|Navajo|017|Bird Springs Wash|02/08/1980|04/18/2011||||351837N|1103732W|35.3101882|-110.6254648|||0.0|0.0
+1441|Biscuit Peak Spring|Spring|Arizona|04|Graham|009|Rhodes Peak|02/08/1980|04/18/2011|Official|Board Decision|01/01/1975|324252N|1102502W|32.7143159|-110.4173291|||0.0|0.0
+1454|Bitter Spring|Spring|Arizona|04|Graham|009|Oak Grove Canyon|02/08/1980|04/18/2011||||324602N|1102256W|32.7672043|-110.3821335|||0.0|0.0
+1455|Bitter Spring|Spring|Arizona|04|Graham|009|Mount Turnbull|02/08/1980|04/17/2017||||330514N|1101842W|33.08726|-110.31177|||0.0|0.0
+1456|Bitter Spring|Spring|Arizona|04|Coconino|005|Begashibito Canyon|02/08/1980|04/18/2011||||361415N|1105402W|36.237583|-110.9006176|||0.0|0.0
+1457|Bitter Spring|Spring|Arizona|04|Coconino|005|Jumpup Point|02/08/1980|04/18/2011||||363135N|1123307W|36.5263086|-112.5520779|||0.0|0.0
+1458|Bitter Spring|Spring|Arizona|04|Coconino|005|Bitter Springs|02/08/1980|04/18/2011||||363936N|1113850W|36.6600486|-111.6472225|||0.0|0.0
+1461|Bitter Water Springs|Spring|Arizona|04|Apache|001|Lohali Point|02/08/1980|04/18/2011||||361244N|1094827W|36.2121917|-109.8075876|||0.0|0.0
+1466|Black Bear Spring|Spring|Arizona|04|Navajo|017|Bear Ridge|02/08/1980|04/18/2011||||341329N|1102556W|34.2247287|-110.4321706|||0.0|0.0
+1479|Black Butte Spring|Spring|Arizona|04|Navajo|017|Five Buttes|02/08/1980|04/18/2011||||351759N|1100531W|35.2996614|-110.0920743|||0.0|0.0
+1493|Black Canyon Spring|Spring|Arizona|04|Graham|009|Booger Canyon|02/08/1980|01/30/2017||||325755N|1102525W|32.96532|-110.42371|||0.0|0.0
+1494|Black Canyon Spring|Spring|Arizona|04|Mohave|015|Arrastra Mountain|02/08/1980|04/18/2011||||342825N|1132334W|34.473485|-113.392677|||0.0|0.0
+1536|Black Inky Spring|Spring|Arizona|04|Mohave|015|Hualapai Peak|02/08/1980|04/18/2011||||350342N|1135850W|35.061638|-113.9806289|||0.0|0.0
+1610|Black Rock Spring|Spring|Arizona|04|Navajo|017|Rotten Bananas Butte|02/08/1980|04/18/2011||||350830N|1101654W|35.1416659|-110.2816786|||0.0|0.0
+1611|Black Rock Spring|Spring|Arizona|04|Mohave|015|Milkweed Canyon SW|02/08/1980|04/18/2011||||353040N|1134348W|35.511006|-113.7301302|||0.0|0.0
+1612|Black Rock Spring|Spring|Arizona|04|Mohave|015|Wolf Hole Mountain West|02/08/1980|04/18/2011||||364843N|1134310W|36.8120687|-113.7194907|||0.0|0.0
+1638|Black Willow Spring|Spring|Arizona|04|Mohave|015|Gyp Hills|02/08/1980|||||362037N|1135711W|36.3435946|-113.9530141|||0.0|0.0
+1648|Blackjack Spring|Spring|Arizona|04|Yavapai|025|Yarnell|02/08/1980|||||341042N|1123843W|34.178361|-112.6451755|||0.0|0.0
+1649|Blackjack Spring|Spring|Arizona|04|Mohave|015|Austin Peak|02/08/1980|||||350225N|1133118W|35.0402856|-113.5216017|||0.0|0.0
+1659|Blackwater Spring|Spring|Arizona|04|Yavapai|025|Yarnell|02/08/1980|04/18/2011||||341327N|1123958W|34.2240431|-112.6660732|||0.0|0.0
+1663|Blairs Spring|Spring|Arizona|04|Navajo|017|Blairs Spring|02/08/1980|04/18/2011||||350435N|1101620W|35.07625|-110.2722481|||0.0|0.0
+1676|Bleak Spring|Spring|Arizona|04|Pinal|021|Oak Grove Canyon|02/08/1980|01/30/2017||||324936N|1102922W|32.82677|-110.48956|||0.0|0.0
+1709|Blue Ledge Spring|Spring|Arizona|04|Cochise|003|Railroad Pass|02/08/1980|11/10/2016||||321527N|1093949W|32.25757|-109.66374|||0.0|0.0
+1710|Blue Mary Spring|Spring|Arizona|04|Mohave|015|Creamery Canyon|02/08/1980|||||345007N|1135339W|34.8352863|-113.8941117|||0.0|0.0
+1711|Blue Mary Spring|Spring|Arizona|04|Mohave|015|Tom Brown Canyon|02/08/1980|09/15/2020||||345617N|1133147W|34.9379976|-113.5296066|||0.0|0.0
+1718|Blue Mountain Spring|Spring|Arizona|04|Pinal|021|Coolidge Dam|02/08/1980|||||330844N|1103109W|33.1456172|-110.5192658|||0.0|0.0
+1719|Blue Mud Spring|Spring|Arizona|04|Mohave|015|Austin Peak|02/08/1980|09/15/2020||||350520N|1133501W|35.0888056|-113.5835152|||0.0|0.0
+1727|Blue River Spring|Spring|Arizona|04|Gila|007|Sontag Creek|02/08/1980|04/18/2011||||333106N|1101547W|33.5183752|-110.2631837|||0.0|0.0
+1728|Blue River Spring|Spring|Arizona|04|Gila|007|Chiricahua Butte|02/08/1980|04/18/2011||||333514N|1101158W|33.5871174|-110.1994715|||0.0|0.0
+1733|Blue Spring|Spring|Arizona|04|Navajo|017|Limestone Canyon South|02/08/1980|||||340419N|1101844W|34.07199|-110.3123336|||0.0|0.0
+1734|Blue Spring|Spring|Arizona|04|Coconino|005|Blue Spring|02/08/1980|04/18/2011||||360659N|1114137W|36.1163921|-111.6936143|||0.0|0.0
+1752|Bluebird Spring|Spring|Arizona|04|Pinal|021|Oak Grove Canyon|02/08/1980|04/18/2011||||324638N|1102825W|32.777148|-110.4735089|||0.0|0.0
+1753|Bluebird Spring|Spring|Arizona|04|Navajo|017|Keams Canyon|02/08/1980|04/18/2011||||354721N|1101433W|35.7891854|-110.2424014|||0.0|0.0
+1757|Bluff Spring|Spring|Arizona|04|Graham|009|Kennedy Peak|02/08/1980|01/30/2017||||323852N|1101639W|32.64787|-110.27756|||0.0|0.0
+1762|Bob Lee Spring|Spring|Arizona|04|Cochise|003|Dos Cabezas|02/08/1980|04/18/2011||||321229N|1093147W|32.2079699|-109.5297119|||0.0|0.0
+1764|Bobby Spring|Spring|Arizona|04|Mohave|015|Austin Peak|02/08/1980|09/15/2020||||350222N|1133354W|35.0393511|-113.5649083|||0.0|0.0
+1777|Bodaway Water|Spring|Arizona|04|Coconino|005|Bodaway Mesa|02/08/1980|04/18/2011||||361912N|1113418W|36.3199704|-111.5716893|||0.0|0.0
+1781|Bog Spring|Spring|Arizona|04|Gila|007|Carrizo SE|02/08/1980|04/18/2011||||334655N|1102207W|33.7819692|-110.368663|||0.0|0.0
+1789|Boiling Spring|Spring|Arizona|04|Graham|009|Elevator Mountain|02/08/1980|04/17/2017||||330943N|1093411W|33.16197|-109.56985|||0.0|0.0
+1800|Bone Spring|Spring|Arizona|04|Graham|009|Ash Creek Ranch|02/08/1980|04/17/2017||||331800N|1100722W|33.29991|-110.12288|||0.0|0.0
+1805|Bonehead Spring|Spring|Arizona|04|Gila|007|Carrizo SE|02/08/1980|04/18/2011||||335154N|1102128W|33.8650477|-110.3577576|||0.0|0.0
+1818|Bonita Spring|Spring|Arizona|04|Graham|009|Bonita Spring|02/08/1980|04/18/2011||||330511N|1093640W|33.0863356|-109.6111401|||0.0|0.0
+1819|Bonita Spring|Spring|Arizona|04|Mohave|015|Groom Spring|02/08/1980|09/15/2020||||343439N|1134159W|34.5776273|-113.6998557|||0.0|0.0
+1856|Bota Chiquita Spring|Spring|Arizona|04|Cochise|003|Dos Cabezas|02/08/1980|||||321254N|1093311W|32.2150789|-109.5531193|||0.0|0.0
+1873|Boulder Spring|Spring|Arizona|04|Mohave|015|Kingman SE|02/08/1980|04/18/2011||||350631N|1140432W|35.1085559|-114.0756658|||0.0|0.0
+1881|Boundary Spring|Spring|Arizona|04|Graham|009|Cobre Grande Mountain|02/08/1980|04/18/2011||||325845N|1101924W|32.9790741|-110.3232441|||0.0|0.0
+1904|Box Canyon Springs|Spring|Arizona|04|Apache|001|Burntwater Wash|02/08/1980|04/18/2011||||351708N|1091537W|35.2855302|-109.2603238|||0.0|0.0
+1909|Box Elder Spring|Spring|Arizona|04|Coconino|005|Sowats Spring|02/08/1980|04/18/2011||||363244N|1122935W|36.545658|-112.4930286|||0.0|0.0
+1916|Box Spring|Spring|Arizona|04|Graham|009|The Mesas|02/08/1980|12/10/2016||||322849N|1100757W|32.48037|-110.13255|||0.0|0.0
+1917|Box Spring|Spring|Arizona|04|Graham|009|Beargrass Basin|02/08/1980|04/18/2011||||330105N|1101218W|33.0181231|-110.204883|||0.0|0.0
+1918|Box Spring|Spring|Arizona|04|Navajo|017|Cibecue|02/08/1980|04/18/2011||||340123N|1102604W|34.0229569|-110.4343314|||0.0|0.0
+1919|Box Spring|Spring|Arizona|04|Mohave|015|Burns Spring|02/08/1980|04/18/2011||||351648N|1142910W|35.2800471|-114.4862342|||0.0|0.0
+1920|Box Spring|Spring|Arizona|04|Coconino|005|Standing Rocks|02/08/1980|04/18/2011||||353012N|1111423W|35.5032657|-111.2396891|||0.0|0.0
+1932|Bradshaw Spring|Spring|Arizona|04|Yavapai|025|Copperopolis|02/08/1980|04/18/2011||||340448N|1122939W|34.0799867|-112.4940638|||0.0|0.0
+1941|Branaman Spring|Spring|Arizona|04|Graham|009|Branaman Spring|02/08/1980|04/17/2017||||331951N|1101300W|33.33072|-110.21665|||0.0|0.0
+1947|Bread Spring|Spring|Arizona|04|Gila|007|Forks Butte|02/08/1980|09/15/2020||||334014N|1101025W|33.6704573|-110.1735099|||0.0|0.0
+1964|Bright Angel Spring|Spring|Arizona|04|Coconino|005|Bright Angel Point|02/08/1980|09/15/2020|Official|Board Decision|01/01/1932|361248N|1120412W|36.2133116|-112.0699145|||0.0|0.0
+1980|Broken Trough Spring|Spring|Arizona|04|Pima|019|Baboquivari Peak|02/08/1980|11/10/2016||||314538N|1113454W|31.76069|-111.58178|||0.0|0.0
+1993|Brown Jug Spring|Spring|Arizona|04|Pinal|021|Oak Grove Canyon|02/08/1980|04/18/2011||||324626N|1102917W|32.7738767|-110.4880682|||0.0|0.0
+2042|Brushy Spring|Spring|Arizona|04|Graham|009|Rawhide Mountain|02/08/1980|04/18/2011||||330026N|1102237W|33.007275|-110.3770405|||0.0|0.0
+2043|Brushy Spring|Spring|Arizona|04|Mohave|015|Elements Canyon|02/08/1980|04/18/2011||||352421N|1140716W|35.4058305|-114.1210911|||0.0|0.0
+2044|Brushy Springs|Spring|Arizona|04|Graham|009|Elevator Mountain|02/08/1980|09/15/2020||||331248N|1093414W|33.2134608|-109.5706501|||0.0|0.0
+2057|Bubbling Spring|Spring|Arizona|04|Navajo|017|Bubbling Spring Canyon|02/08/1980|04/18/2011||||364435N|1103415W|36.7430237|-110.5709207|||0.0|0.0
+2098|Buckhorn Spring|Spring|Arizona|04|Yavapai|025|Copperopolis|02/08/1980|04/18/2011||||340023N|1122810W|34.0064284|-112.4693538|||0.0|0.0
+2099|Buckhorn Spring|Spring|Arizona|04|Mohave|015|Gyp Hills|02/08/1980|||||361910N|1135825W|36.3194283|-113.9735701|||0.0|0.0
+2100|Buckhorn Spring|Spring|Arizona|04|Mohave|015|Hitson Tank|02/08/1980|04/18/2011||||362258N|1124647W|36.3826806|-112.7798012|||0.0|0.0
+2109|Buckley Tunnel Spring|Spring|Arizona|04|Mohave|015|Tom Brown Canyon|02/08/1980|||||345418N|1133419W|34.90501|-113.5718802|||0.0|0.0
+2111|Buckshot Spring|Spring|Arizona|04|Cochise|003|Black Diamond Peak|02/08/1980|11/10/2016||||314841N|1095743W|31.81149|-109.96204|||0.0|0.0
+2117|Buckskin Spring|Spring|Arizona|04|Yavapai|025|Morgan Butte|02/08/1980|04/18/2011||||340634N|1123208W|34.1094575|-112.5356754|||0.0|0.0
+2123|Budweiser Spring|Spring|Arizona|04|La Paz|012|Livingston Hills|02/08/1980|||||332457N|1140209W|33.4158661|-114.0357712|||0.0|0.0
+2143|Cane Springs Wash|Spring|Arizona|04|Mohave|015|Pilgrim Wash|01/12/2024|01/12/2024||||345447N|1133732W|34.912962|-113.625455|||0.0|0.0
+2154|Bull Pasture Spring|Spring|Arizona|04|Pima|019|Mount Ajo|02/08/1980|04/18/2011||||320057N|1124130W|32.0159261|-112.69179|||0.0|0.0
+2165|Bull Spring|Spring|Arizona|04|Cochise|003|Potter Mountain|02/08/1980|11/10/2016||||313058N|1095716W|31.51602|-109.95452|||0.0|0.0
+2166|Bull Spring|Spring|Arizona|04|Gila|007|Cedar Creek|02/08/1980|04/18/2011||||335757N|1100829W|33.965807|-110.1413624|||0.0|0.0
+2167|Bull Trap Spring|Spring|Arizona|04|Gila|007|Cypress Butte|06/27/1984|04/18/2011||||341231N|1113534W|34.2084901|-111.5928983|||0.0|0.0
+2168|Bull Spring|Spring|Arizona|04|Mohave|015|Austin Peak|02/08/1980|||||350236N|1133320W|35.0433407|-113.5554917|||0.0|0.0
+2172|Bull Springs|Spring|Arizona|04|Graham|009|Markham Creek|02/08/1980|04/18/2011||||330628N|1094700W|33.1076561|-109.7832965|||0.0|0.0
+2185|Bullfrog Spring|Spring|Arizona|04|Gila|007|Cypress Butte|02/08/1980|04/18/2011||||341311N|1113202W|34.2197396|-111.533912|||0.0|0.0
+2205|Burn Spring|Spring|Arizona|04|Mohave|015|Hualapai Spring|02/08/1980|04/18/2011||||350841N|1135157W|35.1445866|-113.8657063|||0.0|0.0
+2209|Burns Spring|Spring|Arizona|04|Mohave|015|Burns Spring|02/08/1980|04/18/2011||||351852N|1142454W|35.31438|-114.4149124|||0.0|0.0
+2218|Burnt Canyon Spring|Spring|Arizona|04|Mohave|015|Tincanebitts Point|02/08/1980|04/18/2011||||360412N|1133945W|36.0699979|-113.6624492|||0.0|0.0
+2220|Burnt Corn Spring|Spring|Arizona|04|Navajo|017|Burnt Corn Spring|02/08/1980|04/18/2011|Official|Board Decision|01/01/1969|360758N|1100717W|36.1328717|-110.1213923|||0.0|0.0
+2228|Burnt Corral Spring|Spring|Arizona|04|Apache|001|Maverick SW|02/08/1980|09/21/2020||||333455N|1094441W|33.5818467|-109.7448017|||0.0|0.0
+2229|Burnt Corral Spring|Spring|Arizona|04|Mohave|015|Moccasin|02/08/1980|||||365719N|1124633W|36.9552626|-112.7757625|||0.0|0.0
+2235|Burnt Trough Spring|Spring|Arizona|04|Yavapai|025|Copperopolis|02/08/1980|04/18/2011||||340633N|1122942W|34.1090679|-112.494889|||0.0|0.0
+2258|Burro Spring|Spring|Arizona|04|Cochise|003|Portal Peak|02/08/1980|04/18/2011||||314906N|1091211W|31.8183114|-109.2031706|||0.0|0.0
+2259|Burro Spring|Spring|Arizona|04|Pima|019|Quitobaquito Springs|02/08/1980|04/05/2023||||315656N|1130121W|31.9489835|-113.0225977|||0.0|0.0
+2260|Burro Spring|Spring|Arizona|04|Pinal|021|Hot Tamale Peak|02/08/1980|||||330836N|1105712W|33.1433947|-110.9534457|||0.0|0.0
+2261|Burro Spring|Spring|Arizona|04|Maricopa|013|Baldy Mountain|02/08/1980|04/18/2011||||335053N|1121903W|33.84792|-112.31741|||0.0|0.0
+2262|Burro Spring|Spring|Arizona|04|Yavapai|025|Garfias Mountain|02/08/1980|04/18/2011||||335532N|1122327W|33.9255193|-112.3908194|||0.0|0.0
+2263|Burro Spring|Spring|Arizona|04|Yavapai|025|Copperopolis|02/08/1980|04/18/2011||||340154N|1122435W|34.0316389|-112.4095864|||0.0|0.0
+2264|Burro Spring|Spring|Arizona|04|Yavapai|025|Arrastra Mountain SE|02/08/1980|04/18/2011||||342018N|1131801W|34.3383656|-113.3004052|||0.0|0.0
+2265|Burro Spring|Spring|Arizona|04|Mohave|015|Burns Spring|02/08/1980|04/18/2011||||351605N|1142246W|35.2679433|-114.3794234|||0.0|0.0
+2266|Burro Spring|Spring|Arizona|04|Navajo|017|Burro Spring|02/08/1980|04/18/2011|Official|Board Decision|01/01/1915|354155N|1104136W|35.6986525|-110.6933404|||0.0|0.0
+2267|Burro Spring|Spring|Arizona|04|Mohave|015|Hiller Mountains|02/08/1980|04/18/2011||||360045N|1140951W|36.0124476|-114.1642088|||0.0|0.0
+2268|Burro Spring|Spring|Arizona|04|Coconino|005|Phantom Ranch|02/08/1980|04/18/2011||||360436N|1120600W|36.0766336|-112.1001307|||0.0|0.0
+2269|Burro Spring|Spring|Arizona|04|Mohave|015|Azure Ridge|02/08/1980|04/18/2011||||361659N|1140014W|36.2831731|-114.0040066|||0.0|0.0
+2270|Burro Spring|Spring|Arizona|04|Mohave|015|Pakoon Springs|02/08/1980|04/18/2011||||362240N|1135822W|36.3776876|-113.9727171|||0.0|0.0
+2271|Burro Spring|Spring|Arizona|04|Apache|001|Rough Rock NW|02/08/1980|04/18/2011||||362705N|1095402W|36.4514284|-109.9006767|||0.0|0.0
+2272|Burro Spring|Spring|Arizona|04|Coconino|005|House Rock Spring|02/08/1980|04/18/2011||||364857N|1120534W|36.815853|-112.0927834|||0.0|0.0
+2281|Burro Water Spring|Spring|Arizona|04|Pinal|021|Brandenburg Mountain|02/08/1980|||||325807N|1103729W|32.9686767|-110.624823|||0.0|0.0
+2319|Buzzard Roost Spring|Spring|Arizona|04|Pinal|021|Holy Joe Peak|02/08/1980|04/18/2011||||324709N|1103251W|32.7859|-110.547626|||0.0|0.0
+2320|Buzzard Spring|Spring|Arizona|04|Navajo|017|Rotten Bananas Butte|02/08/1980|04/18/2011||||351451N|1101735W|35.2474606|-110.2929543|||0.0|0.0
+2328|C T Spring|Spring|Arizona|04|Navajo|017|Pepper Canyon|02/08/1980|04/18/2011||||340804N|1103030W|34.1345718|-110.5083451|||0.0|0.0
+2329|C-Dart Spring|Spring|Arizona|04|Gila|007|Round Top Mountain|02/08/1980|04/18/2011||||335959N|1100122W|33.9996008|-110.0227191|||0.0|0.0
+2341|Cabin Spring|Spring|Arizona|04|Mohave|015|Tom Brown Canyon|02/08/1980|||||345429N|1133121W|34.9080659|-113.5224342|||0.0|0.0
+2361|Cake Mountain Spring|Spring|Arizona|04|Graham|009|Rhodes Peak|02/08/1980|01/30/2017|Official|Board Decision|01/01/1975|324406N|1102451W|32.73507|-110.41427|||0.0|0.0
+2373|Calf Spring|Spring|Arizona|04|Graham|009|Jackson Mountain|02/08/1980|04/18/2011||||325741N|1101447W|32.9614136|-110.2462762|||0.0|0.0
+2374|Calf Spring|Spring|Arizona|04|Graham|009|Bonita Spring|02/08/1980|04/17/2017||||330643N|1093058W|33.11196|-109.51625|||0.0|0.0
+2375|Caliche Spring|Spring|Arizona|04|Mohave|015|Yucca NW|02/08/1980|04/18/2011||||345531N|1141317W|34.9252034|-114.2212859|||0.0|0.0
+2379|Calles Spring|Spring|Arizona|04|Mohave|015|Spirit Mountain SE|02/08/1980|04/18/2011||||352133N|1143022W|35.3591506|-114.506072|||0.0|0.0
+2419|Candelaria Spring|Spring|Arizona|04|Apache|001|Concho Lake|02/08/1980|||||342521N|1094449W|34.4225391|-109.7470506|||0.0|0.0
+2420|Cane Spring|Spring|Arizona|04|Mohave|015|Mount Tipton|02/08/1980|04/18/2011||||353539N|1141023W|35.5942679|-114.1731|||0.0|0.0
+2421|Cane Spring|Spring|Arizona|04|Mohave|015|Whitmore Rapids|02/08/1980|04/18/2011||||360916N|1131429W|36.1543168|-113.2415173|||0.0|0.0
+2422|Cane Spring|Spring|Arizona|04|Navajo|017|Chilchinbito|02/08/1980|04/18/2011||||363346N|1100705W|36.5626731|-110.118164|||0.0|0.0
+2424|Cane Springs|Spring|Arizona|04|Graham|009|Bylas|02/08/1980|04/17/2017||||331148N|1100205W|33.19655|-110.03461|||0.0|0.0
+2425|Cane Springs|Spring|Arizona|04|Mohave|015|Pilgrim Wash|02/08/1980|09/24/2020||||345528N|1133957W|34.9243476|-113.6657291|||0.0|0.0
+2426|Cane Springs|Spring|Arizona|04|Mohave|015|Cane Springs|02/08/1980|09/24/2020||||363920N|1134707W|36.6554437|-113.7853496|||0.0|0.0
+2432|Canoa Spring|Spring|Arizona|04|Cochise|003|Galleta Flat West|02/08/1980|04/18/2011||||320651N|1102438W|32.1142597|-110.4104689|||0.0|0.0
+2444|Canyon Spring|Spring|Arizona|04|Mohave|015|Mount Tipton|02/08/1980|04/18/2011||||353154N|1140843W|35.5317593|-114.1453326|||0.0|0.0
+2445|Canyon Spring|Spring|Arizona|04|Mohave|015|Wolf Hole Mountain East|02/08/1980|||||365209N|1133008W|36.8691488|-113.5021776|||0.0|0.0
+2446|Canyon Station Spring|Spring|Arizona|04|Mohave|015|Stockton Hill|02/08/1980|04/18/2011||||352131N|1140546W|35.35851|-114.0961193|||0.0|0.0
+2466|Carls Spring|Spring|Arizona|04|Graham|009|Mount Graham|02/08/1980|04/18/2011||||324203N|1094707W|32.7007324|-109.7853682|||0.0|0.0
+2469|Carol Spring|Spring|Arizona|04|Gila|007|Chrysotile|02/08/1980|04/18/2011||||334132N|1103309W|33.6922992|-110.5525001|||0.0|0.0
+2478|Carrico Spring|Spring|Arizona|04|Pinal|021|Dudleyville|02/08/1980|01/30/2017||||325328N|1103731W|32.89104|-110.62519|||0.0|0.0
+2480|Carrisito Spring|Spring|Arizona|04|Apache|001|Carrisito Spring|02/08/1980|||||343114N|1090431W|34.5205972|-109.0753633|||0.0|0.0
+2493|Carter Flat Spring|Spring|Arizona|04|Yavapai|025|Hillside|02/08/1980|09/28/2020||||342405N|1125920W|34.4014554|-112.9889739|||0.0|0.0
+2494|Carter Sawmill Spring|Spring|Arizona|04|Graham|009|Webb Peak|02/08/1980|04/18/2011||||324438N|1095941W|32.7437861|-109.9946943|||0.0|0.0
+2507|Casa Piedra Spring|Spring|Arizona|04|Cochise|003|Dos Cabezas|02/08/1980|04/18/2011||||321305N|1093408W|32.2181578|-109.5688506|||0.0|0.0
+2514|Cassadore Spring|Spring|Arizona|04|Gila|007|Cassadore Spring|02/08/1980|04/18/2011||||333043N|1102403W|33.5119413|-110.4009025|||0.0|0.0
+2516|Cassidy Spring|Spring|Arizona|04|Graham|009|Harrison Canyon|02/08/1980|04/18/2011|Official|Board Decision|01/01/1975|323525N|1101410W|32.5902804|-110.2359746|||0.0|0.0
+2546|Castle Rock Spring|Spring|Arizona|04|Yavapai|025|Copperopolis|02/08/1980|04/18/2011||||340649N|1122852W|34.1134813|-112.4811866|||0.0|0.0
+2551|Cat Claw Spring|Spring|Arizona|04|Gila|007|Cibecue Peak|02/08/1980|04/18/2011||||335443N|1102616W|33.9118952|-110.4378877|||0.0|0.0
+2555|Cat Spring|Spring|Arizona|04|Navajo|017|Wepo Village|02/08/1980|04/18/2011||||355854N|1101538W|35.9817555|-110.26057|||0.0|0.0
+2573|Cattail Rush|Spring|Arizona|04|Navajo|017|Faught Ridge|02/08/1980|||||340402N|1100527W|34.0672673|-110.090941|||0.0|0.0
+2574|Cattail Spring|Spring|Arizona|04|Mohave|015|Signal Mountain|02/08/1980|||||342609N|1133136W|34.4358512|-113.526596|||0.0|0.0
+2575|Cattail Spring|Spring|Arizona|04|Coconino|005|Moenave|02/08/1980|04/18/2011||||361350N|1111512W|36.2304879|-111.2534117|||0.0|0.0
+2590|Cave Creek Spring|Spring|Arizona|04|Gila|007|Popcorn Canyon|02/08/1980|04/18/2011||||333957N|1102018W|33.6659308|-110.3384324|||0.0|0.0
+2593|Cave Spring|Spring|Arizona|04|Cochise|003|Knob Hill|02/08/1980|04/18/2011||||315733N|1100044W|31.9591939|-110.0121677|||0.0|0.0
+2594|Cave Spring|Spring|Arizona|04|Mohave|015|Mount Nutt|02/08/1980|04/18/2011||||350438N|1141848W|35.0772011|-114.3133501|||0.0|0.0
+2595|Cave Spring|Spring|Arizona|04|Mohave|015|Secret Pass|02/08/1980|04/18/2011||||350912N|1141957W|35.1533323|-114.3325007|||0.0|0.0
+2596|Cave Spring|Spring|Arizona|04|Navajo|017|Cliff Rose Hill|02/08/1980|04/18/2011||||362908N|1100854W|36.4854868|-110.1483247|||0.0|0.0
+2597|Cave Spring|Spring|Arizona|04|Coconino|005|Square Butte|02/08/1980|04/18/2011||||363108N|1105817W|36.5189843|-110.9712749|||0.0|0.0
+2602|Ceadro Spring|Spring|Arizona|04|Apache|001|Ceadro Spring|02/08/1980|04/18/2011||||344918N|1090905W|34.8215853|-109.1513111|||0.0|0.0
+2611|Cedar Basin Spring|Spring|Arizona|04|Gila|007|Cypress Butte|02/08/1980|04/18/2011||||341044N|1113641W|34.1789804|-111.6115187|||0.0|0.0
+2629|Cedar Log Spring|Spring|Arizona|04|Cochise|003|Dos Cabezas|02/08/1980|11/10/2016||||321223N|1093139W|32.20648|-109.52753|||0.0|0.0
+2644|Cedar Spring|Spring|Arizona|04|Cochise|003|Simmons Peak|02/08/1980|04/18/2011||||321234N|1093830W|32.2095445|-109.6417948|||0.0|0.0
+2645|Cedar Spring|Spring|Arizona|04|Graham|009|Bassett Peak|02/08/1980|04/18/2011||||323300N|1101937W|32.5501096|-110.3269528|||0.0|0.0
+2646|Cedar Spring|Spring|Arizona|04|Gila|007|Cedar Creek|02/08/1980|04/18/2011||||335236N|1100901W|33.8765558|-110.1504067|||0.0|0.0
+2647|Cedar Spring|Spring|Arizona|04|Navajo|017|Alchesay Flat|02/08/1980|||||335511N|1095942W|33.9197702|-109.9951025|||0.0|0.0
+2648|Cedar Spring|Spring|Arizona|04|Yavapai|025|Copperopolis|02/08/1980|04/18/2011||||340119N|1122407W|34.0220133|-112.4019977|||0.0|0.0
+2649|Cedar Spring|Spring|Arizona|04|Yavapai|025|Jerome Canyon|02/08/1980|04/18/2011||||343810N|1123539W|34.6359785|-112.5940772|||0.0|0.0
+2650|Cedar Spring|Spring|Arizona|04|Mohave|015|Hualapai Peak|02/08/1980|||||350057N|1135243W|35.0158396|-113.8785576|||0.0|0.0
+2651|Cedar Spring|Spring|Arizona|04|Mohave|015|Chloride|02/08/1980|||||352747N|1140734W|35.4630478|-114.1260664|||0.0|0.0
+2652|Cedar Spring|Spring|Arizona|04|Mohave|015|Music Mountains SE|02/08/1980|04/18/2011||||353405N|1134602W|35.5679702|-113.7670993|||0.0|0.0
+2653|Cedar Spring|Spring|Arizona|04|Mohave|015|Quartermaster Canyon SW|02/08/1980|04/18/2011||||354638N|1135811W|35.777251|-113.9697952|||0.0|0.0
+2654|Cedar Spring|Spring|Arizona|04|Coconino|005|Grand Canyon|02/08/1980|04/18/2011|Official|Board Decision|01/01/1906|360520N|1121041W|36.088921|-112.178173|||0.0|0.0
+2655|Cedar Spring|Spring|Arizona|04|Mohave|015|Whitmore Point|02/08/1980|04/18/2011||||360927N|1131932W|36.1576208|-113.3256136|||0.0|0.0
+2656|Cedar Spring|Spring|Arizona|04|Mohave|015|Virgin Peak|02/08/1980|04/18/2011||||363400N|1140034W|36.5666004|-114.0093261|||0.0|0.0
+2657|Cedar Springs|Spring|Arizona|04|Graham|009|Buford Hill|02/08/1980|04/17/2017||||324637N|1100908W|32.77697|-110.15235|||0.0|0.0
+2671|Cement Spring|Spring|Arizona|04|Cochise|003|Dos Cabezas|02/08/1980|04/18/2011||||321437N|1093413W|32.2435819|-109.570268|||0.0|0.0
+2676|Cement Tank Spring|Spring|Arizona|04|Pinal|021|Oak Grove Canyon|02/08/1980|01/30/2017||||324830N|1102840W|32.80836|-110.47787|||0.0|0.0
+2677|Cement Tank Spring|Spring|Arizona|04|Coconino|005|Vulcans Throne|02/08/1980|04/18/2011||||360732N|1130401W|36.1256387|-113.0670622|||0.0|0.0
+2679|Cement Trough Spring|Spring|Arizona|04|Navajo|017|Spotted Mountain|02/08/1980|04/18/2011||||340131N|1103145W|34.0253599|-110.5290325|||0.0|0.0
+2732|Chalk Spring|Spring|Arizona|04|Mohave|015|Burns Spring|02/08/1980|04/18/2011||||352016N|1142805W|35.3377355|-114.4680663|||0.0|0.0
+2737|Chalky Spring|Spring|Arizona|04|Maricopa|013|Baldy Mountain|02/08/1980|04/18/2011||||335117N|1121840W|33.8548192|-112.3111381|||0.0|0.0
+2750|Chandler Springs|Spring|Arizona|04|Navajo|017|Shonto Butte|02/08/1980|||||352236N|1102831W|35.3766788|-110.4754096|||0.0|0.0
+2755|Chappo Spring|Spring|Arizona|04|Mohave|015|Diamond Joe Peak|02/08/1980|||||345113N|1134924W|34.8536199|-113.8232766|||0.0|0.0
+2760|Charcoal Spring|Spring|Arizona|04|Mohave|015|Cerbat|02/08/1980|04/18/2011||||351740N|1140733W|35.2944883|-114.125955|||0.0|0.0
+2764|Charley Thompson Springs|Spring|Arizona|04|Graham|009|Fort Thomas|02/08/1980|04/17/2017||||330244N|1095652W|33.04566|-109.94786|||0.0|0.0
+2772|Chartz Spring|Spring|Arizona|04|Yavapai|025|Hillside|02/08/1980|||||342654N|1125241W|34.4483569|-112.8779614|||0.0|0.0
+2773|Charvoidles Spring|Spring|Arizona|04|Apache|001|Bonito Rock|02/08/1980|||||334622N|1093126W|33.7728286|-109.5239775|||0.0|0.0
+2791|Cherry Spring|Spring|Arizona|04|Cochise|003|Cherry Spring Peak|02/08/1980|01/30/2017||||322444N|1101807W|32.4121977|-110.3018529|||0.0|0.0
+2794|Cherry Tree Spring|Spring|Arizona|04|Graham|009|Buford Hill|02/08/1980|04/18/2011||||324939N|1101256W|32.827409|-110.2156147|||0.0|0.0
+2802|Chewed Nose Springs|Spring|Arizona|04|Apache|001|Toadindaaska Mesa|02/08/1980|04/18/2011||||360159N|1095822W|36.0330935|-109.9727236|||0.0|0.0
+2821|Chilchinbeto|Spring|Arizona|04|Navajo|017|Little Black Spot Mountain|02/08/1980|04/18/2011||||360500N|1102223W|36.0833434|-110.373045|||0.0|0.0

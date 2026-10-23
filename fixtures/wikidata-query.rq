@@ -1,0 +1,7 @@
+SELECT ?item ?itemLabel ?itemDescription ?coord ?image ?modified ?hot WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q124714; wdt:P625 ?coord.
+  OPTIONAL { ?item wdt:P18 ?image. }
+  OPTIONAL { ?item schema:dateModified ?modified. }
+  BIND(EXISTS { ?item wdt:P31/wdt:P279* wd:Q177380 } AS ?hot)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+} ORDER BY ?item ?coord ?image LIMIT 5000 OFFSET 0

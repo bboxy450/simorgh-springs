@@ -1,0 +1,1 @@
+[out:json][timeout:300];(node["natural"="spring"](38.0,-123.2,38.9,-122.3);node["natural"="hot_spring"](38.0,-123.2,38.9,-122.3);node["amenity"="drinking_water"](38.0,-123.2,38.9,-122.3););out tags center meta;

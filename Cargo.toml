@@ -1,0 +1,31 @@
+[package]
+name = "simorgh-springs"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+authors = ["Boxy <bboxy450@gmail.com>"]
+description = "Open-data spring sources, normalization, deterministic merge, and CLI"
+license = "Apache-2.0"
+repository = "https://github.com/bboxy450/simorgh-springs"
+readme = "README.md"
+keywords = ["springs", "openstreetmap", "wikidata", "geodata"]
+categories = ["science::geo", "command-line-utilities"]
+include = ["src/**", "tests/**", "fixtures/**", "Cargo.toml", "Cargo.lock", "README.md", "LICENSE"]
+
+[dependencies]
+async-stream = "0.3"
+clap = { version = "4.5", features = ["derive"] }
+csv = "1.3"
+calamine = "0.31"
+futures-core = "0.3"
+futures-util = "0.3"
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "json", "stream"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tempfile = "3"
+thiserror = "2"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time", "sync", "fs", "io-util", "net"] }
+zip = { version = "4", default-features = false, features = ["deflate"] }
+
+[dev-dependencies]
+axum = "0.8"

@@ -1,0 +1,3153 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-23T20:04:40Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 304740171,
+  "lat": 38.0152594,
+  "lon": -122.3662471,
+  "timestamp": "2019-02-16T06:18:41Z",
+  "version": 2,
+  "changeset": 67245972,
+  "user": "Delta 6",
+  "uid": 4967074,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 304740172,
+  "lat": 38.0128518,
+  "lon": -122.3646977,
+  "timestamp": "2019-02-16T06:18:41Z",
+  "version": 2,
+  "changeset": 67245972,
+  "user": "Delta 6",
+  "uid": 4967074,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 304740173,
+  "lat": 38.0140594,
+  "lon": -122.3654767,
+  "timestamp": "2019-02-16T06:18:41Z",
+  "version": 2,
+  "changeset": 67245972,
+  "user": "Delta 6",
+  "uid": 4967074,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 304740174,
+  "lat": 38.0107237,
+  "lon": -122.3645489,
+  "timestamp": "2008-10-15T10:09:24Z",
+  "version": 1,
+  "changeset": 348082,
+  "user": "beej71",
+  "uid": 11154,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 323060301,
+  "lat": 38.5803873,
+  "lon": -122.4208986,
+  "timestamp": "2009-01-02T01:00:31Z",
+  "version": 3,
+  "changeset": 709551,
+  "user": "ricomundy",
+  "uid": 86565,
+  "tags": {
+    "created_by": "Potlatch 0.10f",
+    "name": "Martin Spring",
+    "natural": "spring",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 323061796,
+  "lat": 38.5627353,
+  "lon": -122.4149857,
+  "timestamp": "2009-01-02T01:38:21Z",
+  "version": 3,
+  "changeset": 709551,
+  "user": "ricomundy",
+  "uid": 86565,
+  "tags": {
+    "created_by": "Potlatch 0.10f",
+    "name": "Arrow Flat",
+    "natural": "spring",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 430042964,
+  "lat": 38.4517025,
+  "lon": -122.5739821,
+  "timestamp": "2009-06-28T06:19:22Z",
+  "version": 1,
+  "changeset": 1658735,
+  "user": "beej71",
+  "uid": 11154,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 705251918,
+  "lat": 38.0174810,
+  "lon": -122.8547209,
+  "timestamp": "2016-05-30T21:38:55Z",
+  "version": 2,
+  "changeset": 39676203,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water",
+    "drinking_water:bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 710659492,
+  "lat": 38.0169632,
+  "lon": -122.8536428,
+  "timestamp": "2016-05-30T21:38:56Z",
+  "version": 3,
+  "changeset": 39676203,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water",
+    "drinking_water:bottle": "yes",
+    "note": "Slight mineral taste, quite drinkable",
+    "source": "wetap.org",
+    "wetap:status": "working"
+  }
+},
+{
+  "type": "node",
+  "id": 1509384234,
+  "lat": 38.3562108,
+  "lon": -122.6912666,
+  "timestamp": "2013-07-30T01:06:16Z",
+  "version": 2,
+  "changeset": 17146814,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water",
+    "source": "wetap.org",
+    "wetap:status": "unknown"
+  }
+},
+{
+  "type": "node",
+  "id": 1640468743,
+  "lat": 38.2512082,
+  "lon": -122.5983117,
+  "timestamp": "2012-02-20T13:46:22Z",
+  "version": 1,
+  "changeset": 10739400,
+  "user": "2-U-Turns",
+  "uid": 607826,
+  "tags": {
+    "amenity": "drinking_water",
+    "source": "local_knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 1699002138,
+  "lat": 38.1067970,
+  "lon": -122.6304761,
+  "timestamp": "2012-03-31T02:41:34Z",
+  "version": 1,
+  "changeset": 11161683,
+  "user": "barte",
+  "uid": 37067,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 2136092008,
+  "lat": 38.0685240,
+  "lon": -122.8050750,
+  "timestamp": "2025-02-21T02:04:24Z",
+  "version": 2,
+  "changeset": 162762149,
+  "user": "suplesse",
+  "uid": 21628168,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "fee": "no",
+    "fountain": "bottle_refill",
+    "name": "Water Fountain",
+    "opening_hours": "24/7",
+    "seasonal": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2351681901,
+  "lat": 38.1729130,
+  "lon": -122.8138960,
+  "timestamp": "2013-06-18T22:35:30Z",
+  "version": 1,
+  "changeset": 16610678,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water",
+    "source": "wetap.org",
+    "wetap:status": "working",
+    "wetap:statusnote": "access=private"
+  }
+},
+{
+  "type": "node",
+  "id": 2351681909,
+  "lat": 38.4526250,
+  "lon": -122.6511500,
+  "timestamp": "2024-04-10T00:20:46Z",
+  "version": 3,
+  "changeset": 149798292,
+  "user": "rtyler",
+  "uid": 10529368,
+  "tags": {
+    "amenity": "drinking_water",
+    "check_date": "2024-04-09",
+    "fountain": "bubbler",
+    "source": "wetap.org",
+    "wetap:status": "working"
+  }
+},
+{
+  "type": "node",
+  "id": 2351681914,
+  "lat": 38.5654530,
+  "lon": -122.4389200,
+  "timestamp": "2013-06-18T22:35:30Z",
+  "version": 1,
+  "changeset": 16610678,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water",
+    "description": "Little red fountain not the best water, but water nun the less.",
+    "source": "wetap.org",
+    "wetap:status": "working"
+  }
+},
+{
+  "type": "node",
+  "id": 2351681917,
+  "lat": 38.5688480,
+  "lon": -122.4401400,
+  "timestamp": "2013-06-18T22:35:30Z",
+  "version": 1,
+  "changeset": 16610678,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water",
+    "description": "PREP fountain stone construction",
+    "source": "wetap.org",
+    "wetap:status": "broken",
+    "wetap:statusnote": "hopefully will be working soon"
+  }
+},
+{
+  "type": "node",
+  "id": 2351681920,
+  "lat": 38.5701200,
+  "lon": -122.4414200,
+  "timestamp": "2013-06-18T22:35:30Z",
+  "version": 1,
+  "changeset": 16610678,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water",
+    "description": "Church drinking fountain walk up the stairs from the church, and its in the breezway",
+    "source": "wetap.org",
+    "wetap:status": "working",
+    "wetap:statusnote": "pretty noce"
+  }
+},
+{
+  "type": "node",
+  "id": 2415626453,
+  "lat": 38.4238507,
+  "lon": -122.6370161,
+  "timestamp": "2013-08-12T06:08:40Z",
+  "version": 1,
+  "changeset": 17312506,
+  "user": "msebast",
+  "uid": 16150,
+  "tags": {
+    "name": "Hunter Spring",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 2511126968,
+  "lat": 38.1533350,
+  "lon": -122.5717403,
+  "timestamp": "2013-10-28T05:45:29Z",
+  "version": 1,
+  "changeset": 18578561,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "unknown"
+  }
+},
+{
+  "type": "node",
+  "id": 2818864201,
+  "lat": 38.2940125,
+  "lon": -122.4560515,
+  "timestamp": "2023-08-30T17:56:43Z",
+  "version": 2,
+  "changeset": 140601844,
+  "user": "cronj0b",
+  "uid": 9432150,
+  "tags": {
+    "addr:city": "Sonoma",
+    "addr:postcode": "95476",
+    "amenity": "drinking_water",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3163960376,
+  "lat": 38.0040544,
+  "lon": -122.4949928,
+  "timestamp": "2014-11-03T02:27:40Z",
+  "version": 1,
+  "changeset": 26517110,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3179893740,
+  "lat": 38.0406254,
+  "lon": -122.7989731,
+  "timestamp": "2016-10-06T18:57:10Z",
+  "version": 2,
+  "changeset": 42692641,
+  "user": "timmmichaud",
+  "uid": 4213591,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3284646960,
+  "lat": 38.6688483,
+  "lon": -122.8170544,
+  "timestamp": "2026-05-25T18:41:15Z",
+  "version": 2,
+  "changeset": 183172622,
+  "user": "drewlevitt",
+  "uid": 9621791,
+  "tags": {
+    "amenity": "drinking_water",
+    "fee": "no",
+    "indoor": "no",
+    "name": "Jimtown Store right side"
+  }
+},
+{
+  "type": "node",
+  "id": 3308753819,
+  "lat": 38.3641395,
+  "lon": -122.3377647,
+  "timestamp": "2015-01-25T02:57:31Z",
+  "version": 1,
+  "changeset": 28387091,
+  "user": "ricomundy",
+  "uid": 86565,
+  "tags": {
+    "amenity": "drinking_water",
+    "name": "Bicycle Rest Stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3341086180,
+  "lat": 38.3908086,
+  "lon": -122.4795635,
+  "timestamp": "2015-07-12T04:36:46Z",
+  "version": 2,
+  "changeset": 32574201,
+  "user": "ricomundy",
+  "uid": 86565,
+  "tags": {
+    "amenity": "drinking_water",
+    "name": "Corner of fire station"
+  }
+},
+{
+  "type": "node",
+  "id": 3438440674,
+  "lat": 38.7106946,
+  "lon": -123.0531168,
+  "timestamp": "2015-04-05T01:16:51Z",
+  "version": 1,
+  "changeset": 29983923,
+  "user": "ricomundy",
+  "uid": 86565,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 3495410972,
+  "lat": 38.4640490,
+  "lon": -122.6431253,
+  "timestamp": "2025-01-21T07:33:31Z",
+  "version": 2,
+  "changeset": 161588936,
+  "user": "nianticgarbage",
+  "uid": 7131632,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3496331041,
+  "lat": 38.4347427,
+  "lon": -122.5059127,
+  "timestamp": "2017-05-20T20:42:26Z",
+  "version": 2,
+  "changeset": 48850460,
+  "user": "timmmichaud",
+  "uid": 4213591,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 3496331043,
+  "lat": 38.4354690,
+  "lon": -122.5117017,
+  "timestamp": "2015-05-04T05:05:53Z",
+  "version": 1,
+  "changeset": 30767114,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 3496331047,
+  "lat": 38.4378764,
+  "lon": -122.5087399,
+  "timestamp": "2015-05-04T05:05:53Z",
+  "version": 1,
+  "changeset": 30767114,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 3564685924,
+  "lat": 38.4544853,
+  "lon": -122.6489424,
+  "timestamp": "2015-06-02T01:14:23Z",
+  "version": 1,
+  "changeset": 31652146,
+  "user": "sethoscope",
+  "uid": 224058,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 3573334993,
+  "lat": 38.5058234,
+  "lon": -122.4631218,
+  "timestamp": "2015-06-04T23:42:42Z",
+  "version": 2,
+  "changeset": 31734015,
+  "user": "California RoadRunner",
+  "uid": 2898710,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 3646882427,
+  "lat": 38.2961650,
+  "lon": -122.4567207,
+  "timestamp": "2015-07-12T04:36:46Z",
+  "version": 1,
+  "changeset": 32574201,
+  "user": "ricomundy",
+  "uid": 86565,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 3646931483,
+  "lat": 38.6010521,
+  "lon": -122.4400100,
+  "timestamp": "2015-07-12T04:21:13Z",
+  "version": 1,
+  "changeset": 32574121,
+  "user": "ricomundy",
+  "uid": 86565,
+  "tags": {
+    "amenity": "drinking_water",
+    "name": "Water spring beside Howell Mtn Rd"
+  }
+},
+{
+  "type": "node",
+  "id": 3646931484,
+  "lat": 38.6719541,
+  "lon": -122.5900609,
+  "timestamp": "2023-09-30T02:12:48Z",
+  "version": 2,
+  "changeset": 141935175,
+  "user": "KindredCoda",
+  "uid": 14293,
+  "tags": {
+    "amenity": "drinking_water",
+    "name": "Spring beside road"
+  }
+},
+{
+  "type": "node",
+  "id": 3646931485,
+  "lat": 38.5816995,
+  "lon": -122.5857957,
+  "timestamp": "2015-07-12T04:21:13Z",
+  "version": 1,
+  "changeset": 32574121,
+  "user": "ricomundy",
+  "uid": 86565,
+  "tags": {
+    "amenity": "drinking_water",
+    "name": "Drinking fountain"
+  }
+},
+{
+  "type": "node",
+  "id": 3708704324,
+  "lat": 38.4008941,
+  "lon": -123.0956764,
+  "timestamp": "2015-08-21T23:24:12Z",
+  "version": 1,
+  "changeset": 33496490,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "bubbler": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3864586075,
+  "lat": 38.7127364,
+  "lon": -123.1409724,
+  "timestamp": "2015-11-28T07:39:06Z",
+  "version": 1,
+  "changeset": 35623785,
+  "user": "msebast",
+  "uid": 16150,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 4170847760,
+  "lat": 38.5426004,
+  "lon": -123.0043643,
+  "timestamp": "2026-04-20T03:41:53Z",
+  "version": 2,
+  "changeset": 181562177,
+  "user": "JessAk71",
+  "uid": 381909,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4238474724,
+  "lat": 38.5327047,
+  "lon": -123.0034178,
+  "timestamp": "2016-06-11T23:31:57Z",
+  "version": 1,
+  "changeset": 39962583,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water",
+    "drinking_water:bottle": "no",
+    "lastcheck:date": "20160604",
+    "lastcheck:status": "OK"
+  }
+},
+{
+  "type": "node",
+  "id": 4421494531,
+  "lat": 38.0280451,
+  "lon": -122.9615732,
+  "timestamp": "2016-09-28T04:18:59Z",
+  "version": 1,
+  "changeset": 42484809,
+  "user": "Bryce C Nesbitt",
+  "uid": 355242,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 4434836109,
+  "lat": 38.0410669,
+  "lon": -122.8000498,
+  "timestamp": "2026-05-23T04:23:20Z",
+  "version": 2,
+  "changeset": 183049287,
+  "user": "capybara9045",
+  "uid": 22598608,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "fee": "no",
+    "seasonal": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4632601634,
+  "lat": 38.3289182,
+  "lon": -122.3326225,
+  "timestamp": "2017-01-25T17:58:16Z",
+  "version": 1,
+  "changeset": 45484548,
+  "user": "Timothy Smith",
+  "uid": 115918,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 5099706242,
+  "lat": 38.4367289,
+  "lon": -122.7127832,
+  "timestamp": "2024-02-15T12:00:36Z",
+  "version": 3,
+  "changeset": 147488069,
+  "user": "Spotttle",
+  "uid": 14438960,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 5099706281,
+  "lat": 38.5057907,
+  "lon": -122.4683760,
+  "timestamp": "2024-07-10T09:43:32Z",
+  "version": 3,
+  "changeset": 153775792,
+  "user": "WantAwesomeRoads",
+  "uid": 21740156,
+  "tags": {
+    "amenity": "drinking_water",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5264654091,
+  "lat": 38.4432163,
+  "lon": -122.7485273,
+  "timestamp": "2022-05-30T14:55:07Z",
+  "version": 2,
+  "changeset": 121723497,
+  "user": "Chris112233",
+  "uid": 5354676,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 5340141625,
+  "lat": 38.7992296,
+  "lon": -123.0246052,
+  "timestamp": "2018-01-15T05:54:42Z",
+  "version": 1,
+  "changeset": 55450800,
+  "user": "ricomundy",
+  "uid": 86565,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 5850109670,
+  "lat": 38.3268506,
+  "lon": -122.7072449,
+  "timestamp": "2018-08-23T01:28:45Z",
+  "version": 1,
+  "changeset": 61905942,
+  "user": "nereocystis",
+  "uid": 1835512,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 5941706841,
+  "lat": 38.0054440,
+  "lon": -122.4944870,
+  "timestamp": "2018-10-01T02:39:54Z",
+  "version": 1,
+  "changeset": 63079851,
+  "user": "nvk",
+  "uid": 131996,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 5941989874,
+  "lat": 38.0042833,
+  "lon": -122.4947714,
+  "timestamp": "2018-10-01T06:03:03Z",
+  "version": 1,
+  "changeset": 63082918,
+  "user": "nvk",
+  "uid": 131996,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 5941989949,
+  "lat": 38.0046280,
+  "lon": -122.4955374,
+  "timestamp": "2018-10-01T06:03:05Z",
+  "version": 1,
+  "changeset": 63082918,
+  "user": "nvk",
+  "uid": 131996,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5941989950,
+  "lat": 38.0050337,
+  "lon": -122.4953604,
+  "timestamp": "2018-10-01T06:03:05Z",
+  "version": 1,
+  "changeset": 63082918,
+  "user": "nvk",
+  "uid": 131996,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6836067448,
+  "lat": 38.3386232,
+  "lon": -123.0571661,
+  "timestamp": "2019-09-30T01:54:46Z",
+  "version": 1,
+  "changeset": 75075715,
+  "user": "dchiles",
+  "uid": 153669,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 6836067449,
+  "lat": 38.3384759,
+  "lon": -123.0564929,
+  "timestamp": "2019-09-30T01:54:46Z",
+  "version": 1,
+  "changeset": 75075715,
+  "user": "dchiles",
+  "uid": 153669,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 6938659540,
+  "lat": 38.7314573,
+  "lon": -123.1551583,
+  "timestamp": "2019-11-02T03:07:29Z",
+  "version": 1,
+  "changeset": 76519276,
+  "user": "sean2019",
+  "uid": 10119220,
+  "tags": {
+    "name": "Johnny Brown Springs",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 6938659542,
+  "lat": 38.6931103,
+  "lon": -123.0234475,
+  "timestamp": "2019-11-02T03:07:29Z",
+  "version": 1,
+  "changeset": 76519276,
+  "user": "sean2019",
+  "uid": 10119220,
+  "tags": {
+    "name": "Skaggs Springs",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 6982100335,
+  "lat": 38.4621276,
+  "lon": -122.7651434,
+  "timestamp": "2019-11-16T07:57:59Z",
+  "version": 1,
+  "changeset": 77157472,
+  "user": "garrent1274redder",
+  "uid": 10464876,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 7360528025,
+  "lat": 38.4597269,
+  "lon": -122.7107128,
+  "timestamp": "2020-04-03T02:04:02Z",
+  "version": 1,
+  "changeset": 83004594,
+  "user": "rtyler",
+  "uid": 10529368,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 7360528028,
+  "lat": 38.4607691,
+  "lon": -122.7112563,
+  "timestamp": "2020-04-03T02:04:02Z",
+  "version": 1,
+  "changeset": 83004594,
+  "user": "rtyler",
+  "uid": 10529368,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 7395850479,
+  "lat": 38.4648216,
+  "lon": -122.7036521,
+  "timestamp": "2020-04-12T19:05:24Z",
+  "version": 1,
+  "changeset": 83436811,
+  "user": "rtyler",
+  "uid": 10529368,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 7487781640,
+  "lat": 38.2357179,
+  "lon": -122.6407289,
+  "timestamp": "2020-05-06T03:01:16Z",
+  "version": 1,
+  "changeset": 84725474,
+  "user": "PatrickDowd",
+  "uid": 871221,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7552250371,
+  "lat": 38.0008517,
+  "lon": -122.4613874,
+  "timestamp": "2020-05-23T20:00:13Z",
+  "version": 1,
+  "changeset": 85664354,
+  "user": "Azerbaïdjan24",
+  "uid": 1556219,
+  "tags": {
+    "amenity": "drinking_water",
+    "website": "https://friendsofchinacamp.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 7576417658,
+  "lat": 38.4208237,
+  "lon": -122.7271173,
+  "timestamp": "2024-04-12T13:54:50Z",
+  "version": 2,
+  "changeset": 149912336,
+  "user": "Spotttle",
+  "uid": 14438960,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "fee": "no",
+    "man_made": "drinking_fountain",
+    "operator": "City Of Santa Rosa",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7797690234,
+  "lat": 38.1073129,
+  "lon": -122.6142102,
+  "timestamp": "2020-08-09T02:20:53Z",
+  "version": 1,
+  "changeset": 89142286,
+  "user": "Jason Michalski",
+  "uid": 11266570,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 8001598063,
+  "lat": 38.0400124,
+  "lon": -122.8276648,
+  "timestamp": "2023-10-28T17:43:09Z",
+  "version": 2,
+  "changeset": 143274750,
+  "user": "omnibeet",
+  "uid": 10145113,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 8119977317,
+  "lat": 38.2453446,
+  "lon": -122.9057089,
+  "timestamp": "2020-11-15T03:30:05Z",
+  "version": 1,
+  "changeset": 94129207,
+  "user": "Jason Michalski",
+  "uid": 11266570,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8229297230,
+  "lat": 38.0508719,
+  "lon": -122.5114140,
+  "timestamp": "2023-11-17T00:12:56Z",
+  "version": 3,
+  "changeset": 144117659,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "fee": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 8267864140,
+  "lat": 38.0159784,
+  "lon": -122.5143158,
+  "timestamp": "2020-12-28T19:16:29Z",
+  "version": 1,
+  "changeset": 96555180,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "dog": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8267864141,
+  "lat": 38.0127173,
+  "lon": -122.5158208,
+  "timestamp": "2020-12-28T19:16:29Z",
+  "version": 1,
+  "changeset": 96555180,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "dog": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8285253376,
+  "lat": 38.4964789,
+  "lon": -122.3534940,
+  "timestamp": "2021-01-03T00:10:50Z",
+  "version": 1,
+  "changeset": 96830915,
+  "user": "s0rce",
+  "uid": 6297079,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 8288210757,
+  "lat": 38.0310198,
+  "lon": -122.5453440,
+  "timestamp": "2023-06-18T06:30:07Z",
+  "version": 2,
+  "changeset": 137467598,
+  "user": "lasagna",
+  "uid": 7572965,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "fee": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 8636761411,
+  "lat": 38.4599188,
+  "lon": -122.7116773,
+  "timestamp": "2021-04-17T00:24:39Z",
+  "version": 1,
+  "changeset": 103084687,
+  "user": "rtyler",
+  "uid": 10529368,
+  "tags": {
+    "amenity": "drinking_water",
+    "drinking_water": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8694066063,
+  "lat": 38.0570380,
+  "lon": -122.6201523,
+  "timestamp": "2025-06-22T16:40:48Z",
+  "version": 2,
+  "changeset": 167966961,
+  "user": "stst415",
+  "uid": 15080366,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 8734735338,
+  "lat": 38.0108368,
+  "lon": -122.5524425,
+  "timestamp": "2021-05-15T19:20:06Z",
+  "version": 1,
+  "changeset": 104746482,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "fee": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 8734735339,
+  "lat": 38.0108430,
+  "lon": -122.5472750,
+  "timestamp": "2021-05-15T19:20:06Z",
+  "version": 1,
+  "changeset": 104746482,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "fee": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 8968616507,
+  "lat": 38.0015155,
+  "lon": -122.5305091,
+  "timestamp": "2021-07-31T15:07:29Z",
+  "version": 1,
+  "changeset": 108947136,
+  "user": "SHoltaway",
+  "uid": 123188,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "man_made": "drinking_fountain"
+  }
+},
+{
+  "type": "node",
+  "id": 9060862660,
+  "lat": 38.3562762,
+  "lon": -122.5428430,
+  "timestamp": "2021-09-03T18:36:03Z",
+  "version": 2,
+  "changeset": 110691562,
+  "user": "mccarbc",
+  "uid": 13916929,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 9060862662,
+  "lat": 38.3544523,
+  "lon": -122.5389060,
+  "timestamp": "2021-09-03T18:36:03Z",
+  "version": 2,
+  "changeset": 110691562,
+  "user": "mccarbc",
+  "uid": 13916929,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 9060862666,
+  "lat": 38.3531381,
+  "lon": -122.5368920,
+  "timestamp": "2021-09-03T18:36:03Z",
+  "version": 2,
+  "changeset": 110691562,
+  "user": "mccarbc",
+  "uid": 13916929,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 9060862667,
+  "lat": 38.3513882,
+  "lon": -122.5370830,
+  "timestamp": "2021-09-03T18:36:03Z",
+  "version": 2,
+  "changeset": 110691562,
+  "user": "mccarbc",
+  "uid": 13916929,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 9060862674,
+  "lat": 38.3559804,
+  "lon": -122.5456870,
+  "timestamp": "2021-09-03T18:36:03Z",
+  "version": 2,
+  "changeset": 110691562,
+  "user": "mccarbc",
+  "uid": 13916929,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 9060920949,
+  "lat": 38.3565305,
+  "lon": -122.5407757,
+  "timestamp": "2021-09-03T18:36:03Z",
+  "version": 1,
+  "changeset": 110691562,
+  "user": "mccarbc",
+  "uid": 13916929,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 9060920950,
+  "lat": 38.3567121,
+  "lon": -122.5417319,
+  "timestamp": "2021-09-03T18:36:03Z",
+  "version": 1,
+  "changeset": 110691562,
+  "user": "mccarbc",
+  "uid": 13916929,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 9951849749,
+  "lat": 38.3505266,
+  "lon": -123.0434832,
+  "timestamp": "2022-08-14T02:00:54Z",
+  "version": 1,
+  "changeset": 124871948,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "drinking_water": "no",
+    "intermittent": "yes",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 10005361097,
+  "lat": 38.0060440,
+  "lon": -122.4973188,
+  "timestamp": "2022-09-06T23:36:35Z",
+  "version": 1,
+  "changeset": 125878383,
+  "user": "brantner",
+  "uid": 17055203,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 10028583272,
+  "lat": 38.0060860,
+  "lon": -122.5564332,
+  "timestamp": "2022-09-16T02:27:24Z",
+  "version": 1,
+  "changeset": 126244416,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "fee": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10110630193,
+  "lat": 38.4886880,
+  "lon": -122.4485520,
+  "timestamp": "2022-10-18T06:41:48Z",
+  "version": 1,
+  "changeset": 127706258,
+  "user": "user4816003805",
+  "uid": 4186070,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10114548101,
+  "lat": 38.0759432,
+  "lon": -122.5813463,
+  "timestamp": "2022-10-19T16:00:34Z",
+  "version": 1,
+  "changeset": 127791768,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10123012201,
+  "lat": 38.0611638,
+  "lon": -122.5279879,
+  "timestamp": "2022-10-23T06:25:25Z",
+  "version": 1,
+  "changeset": 127944000,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10141478444,
+  "lat": 38.0778860,
+  "lon": -122.5838365,
+  "timestamp": "2022-10-30T21:59:43Z",
+  "version": 1,
+  "changeset": 128265741,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10274548880,
+  "lat": 38.0721968,
+  "lon": -122.5603840,
+  "timestamp": "2022-12-20T01:36:51Z",
+  "version": 1,
+  "changeset": 130268776,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "fee": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10276780389,
+  "lat": 38.0640203,
+  "lon": -122.5468906,
+  "timestamp": "2022-12-20T21:52:51Z",
+  "version": 1,
+  "changeset": 130307178,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10279051906,
+  "lat": 38.0716806,
+  "lon": -122.5662744,
+  "timestamp": "2022-12-22T00:26:35Z",
+  "version": 1,
+  "changeset": 130352647,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10279051907,
+  "lat": 38.0713765,
+  "lon": -122.5654457,
+  "timestamp": "2022-12-22T00:26:35Z",
+  "version": 1,
+  "changeset": 130352647,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10316314143,
+  "lat": 38.0967292,
+  "lon": -122.5747077,
+  "timestamp": "2023-01-09T07:51:51Z",
+  "version": 1,
+  "changeset": 131042334,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10316327530,
+  "lat": 38.0952511,
+  "lon": -122.5707538,
+  "timestamp": "2023-01-09T08:00:24Z",
+  "version": 1,
+  "changeset": 131042615,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 10316327531,
+  "lat": 38.0902041,
+  "lon": -122.5717603,
+  "timestamp": "2024-03-09T04:40:09Z",
+  "version": 2,
+  "changeset": 148408650,
+  "user": "Bandit_",
+  "uid": 21185117,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 10316327545,
+  "lat": 38.0882134,
+  "lon": -122.5731066,
+  "timestamp": "2023-01-09T08:00:24Z",
+  "version": 1,
+  "changeset": 131042615,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 10316327546,
+  "lat": 38.0888986,
+  "lon": -122.5736803,
+  "timestamp": "2023-01-09T08:00:24Z",
+  "version": 1,
+  "changeset": 131042615,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 10557755940,
+  "lat": 38.0916535,
+  "lon": -122.5627107,
+  "timestamp": "2023-01-15T22:15:39Z",
+  "version": 1,
+  "changeset": 131316117,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10708244769,
+  "lat": 38.0030213,
+  "lon": -122.6066052,
+  "timestamp": "2023-03-04T05:34:46Z",
+  "version": 1,
+  "changeset": 133277263,
+  "user": "MrMiloMan",
+  "uid": 15472877,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "description": "Located outside of the school.",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10720191692,
+  "lat": 38.1050536,
+  "lon": -122.5979811,
+  "timestamp": "2023-03-08T00:18:40Z",
+  "version": 1,
+  "changeset": 133423384,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10720209332,
+  "lat": 38.1055635,
+  "lon": -122.5987003,
+  "timestamp": "2023-03-08T00:18:40Z",
+  "version": 1,
+  "changeset": 133423384,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10743360572,
+  "lat": 38.0864815,
+  "lon": -122.5259230,
+  "timestamp": "2023-03-18T14:09:16Z",
+  "version": 1,
+  "changeset": 133824402,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "dog": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10789145214,
+  "lat": 38.5352518,
+  "lon": -122.8043955,
+  "timestamp": "2025-11-25T22:50:15Z",
+  "version": 2,
+  "changeset": 175131318,
+  "user": "adventure-tense",
+  "uid": 18434073,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "fee": "no",
+    "fountain": "bubbler"
+  }
+},
+{
+  "type": "node",
+  "id": 10789145215,
+  "lat": 38.5334299,
+  "lon": -122.8030230,
+  "timestamp": "2025-11-22T00:07:25Z",
+  "version": 2,
+  "changeset": 174970417,
+  "user": "adventure-tense",
+  "uid": 18434073,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "fee": "no",
+    "fountain": "bubbler"
+  }
+},
+{
+  "type": "node",
+  "id": 10885674350,
+  "lat": 38.5059819,
+  "lon": -122.4710389,
+  "timestamp": "2023-05-11T04:54:32Z",
+  "version": 1,
+  "changeset": 135959112,
+  "user": "Dogman15",
+  "uid": 14845392,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 10896652188,
+  "lat": 38.5038456,
+  "lon": -122.4693214,
+  "timestamp": "2023-05-14T19:30:29Z",
+  "version": 1,
+  "changeset": 136098506,
+  "user": "user4816003805",
+  "uid": 4186070,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10900854880,
+  "lat": 38.3064141,
+  "lon": -123.0534923,
+  "timestamp": "2023-05-15T23:24:26Z",
+  "version": 1,
+  "changeset": 136145625,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10913627610,
+  "lat": 38.1135270,
+  "lon": -122.5901780,
+  "timestamp": "2023-11-09T15:46:35Z",
+  "version": 2,
+  "changeset": 143828320,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 10913627611,
+  "lat": 38.1140121,
+  "lon": -122.5892615,
+  "timestamp": "2023-05-20T06:14:47Z",
+  "version": 1,
+  "changeset": 136323422,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10913627612,
+  "lat": 38.1144530,
+  "lon": -122.5902146,
+  "timestamp": "2023-05-20T06:14:47Z",
+  "version": 1,
+  "changeset": 136323422,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10920654142,
+  "lat": 38.0938528,
+  "lon": -122.5726453,
+  "timestamp": "2023-05-23T01:18:51Z",
+  "version": 1,
+  "changeset": 136434543,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10924982997,
+  "lat": 38.1075704,
+  "lon": -122.5795496,
+  "timestamp": "2023-05-24T18:49:24Z",
+  "version": 1,
+  "changeset": 136513665,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10964370590,
+  "lat": 38.1149409,
+  "lon": -122.6034608,
+  "timestamp": "2023-10-29T15:12:31Z",
+  "version": 2,
+  "changeset": 143316585,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 10983520377,
+  "lat": 38.0277659,
+  "lon": -122.5522320,
+  "timestamp": "2023-06-18T06:30:07Z",
+  "version": 1,
+  "changeset": 137467598,
+  "user": "lasagna",
+  "uid": 7572965,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "fee": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11023772875,
+  "lat": 38.0311240,
+  "lon": -122.5479634,
+  "timestamp": "2023-07-03T21:49:05Z",
+  "version": 1,
+  "changeset": 138081746,
+  "user": "CurlingMan13",
+  "uid": 6641970,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "drinking_water": "yes",
+    "fee": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11055845160,
+  "lat": 38.0195030,
+  "lon": -122.5237222,
+  "timestamp": "2023-07-20T00:09:47Z",
+  "version": 1,
+  "changeset": 138739144,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11055845161,
+  "lat": 38.0200468,
+  "lon": -122.5243269,
+  "timestamp": "2023-07-20T00:09:47Z",
+  "version": 1,
+  "changeset": 138739144,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11062601826,
+  "lat": 38.3287270,
+  "lon": -123.0447021,
+  "timestamp": "2026-06-27T03:04:34Z",
+  "version": 3,
+  "changeset": 184677197,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "capacity": "1",
+    "cold_water": "yes",
+    "dog": "no",
+    "fountain": "bubbler",
+    "hot_water": "no",
+    "indoor": "yes",
+    "warm_water": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11075382137,
+  "lat": 38.2239076,
+  "lon": -122.6387290,
+  "timestamp": "2023-07-29T17:34:55Z",
+  "version": 1,
+  "changeset": 139182620,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11075382138,
+  "lat": 38.2245084,
+  "lon": -122.6384200,
+  "timestamp": "2023-07-29T17:34:55Z",
+  "version": 1,
+  "changeset": 139182620,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11075382139,
+  "lat": 38.2237769,
+  "lon": -122.6378494,
+  "timestamp": "2023-07-29T17:34:55Z",
+  "version": 1,
+  "changeset": 139182620,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11075382140,
+  "lat": 38.2243092,
+  "lon": -122.6375443,
+  "timestamp": "2023-07-29T17:34:55Z",
+  "version": 1,
+  "changeset": 139182620,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11082057950,
+  "lat": 38.0797139,
+  "lon": -122.5233734,
+  "timestamp": "2023-08-02T00:41:39Z",
+  "version": 1,
+  "changeset": 139322446,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11084756970,
+  "lat": 38.1092314,
+  "lon": -122.5563841,
+  "timestamp": "2023-08-03T01:40:02Z",
+  "version": 1,
+  "changeset": 139369235,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11084756979,
+  "lat": 38.1095324,
+  "lon": -122.5560796,
+  "timestamp": "2023-08-03T01:40:02Z",
+  "version": 1,
+  "changeset": 139369235,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11084756980,
+  "lat": 38.1097971,
+  "lon": -122.5569216,
+  "timestamp": "2023-08-03T01:40:02Z",
+  "version": 1,
+  "changeset": 139369235,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11084756981,
+  "lat": 38.1100617,
+  "lon": -122.5568508,
+  "timestamp": "2023-08-03T01:40:02Z",
+  "version": 1,
+  "changeset": 139369235,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11131444413,
+  "lat": 38.2257567,
+  "lon": -122.6379068,
+  "timestamp": "2023-08-20T12:23:49Z",
+  "version": 1,
+  "changeset": 140130375,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11142815849,
+  "lat": 38.0562152,
+  "lon": -122.5175715,
+  "timestamp": "2023-08-25T05:15:21Z",
+  "version": 1,
+  "changeset": 140351996,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11142815851,
+  "lat": 38.0563875,
+  "lon": -122.5173860,
+  "timestamp": "2023-08-25T05:15:21Z",
+  "version": 1,
+  "changeset": 140351996,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11151476629,
+  "lat": 38.2130456,
+  "lon": -122.6634791,
+  "timestamp": "2024-04-23T18:52:49Z",
+  "version": 2,
+  "changeset": 150411123,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11151582068,
+  "lat": 38.2318928,
+  "lon": -122.6361347,
+  "timestamp": "2023-08-28T19:45:36Z",
+  "version": 1,
+  "changeset": 140510620,
+  "user": "Airlust",
+  "uid": 20124754,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11152260553,
+  "lat": 38.1103740,
+  "lon": -122.5781210,
+  "timestamp": "2023-08-29T05:34:59Z",
+  "version": 1,
+  "changeset": 140522284,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11269156295,
+  "lat": 38.1093518,
+  "lon": -122.5797090,
+  "timestamp": "2025-08-21T01:17:12Z",
+  "version": 2,
+  "changeset": 170752264,
+  "user": "Cyphase",
+  "uid": 1397177,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "fountain": "bubbler"
+  }
+},
+{
+  "type": "node",
+  "id": 11298117502,
+  "lat": 38.1192843,
+  "lon": -122.6105984,
+  "timestamp": "2023-10-29T16:01:19Z",
+  "version": 1,
+  "changeset": 143318869,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11298117503,
+  "lat": 38.1192536,
+  "lon": -122.6113569,
+  "timestamp": "2023-10-29T16:01:19Z",
+  "version": 1,
+  "changeset": 143318869,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11298117505,
+  "lat": 38.1198377,
+  "lon": -122.6125455,
+  "timestamp": "2023-10-29T16:01:19Z",
+  "version": 1,
+  "changeset": 143318869,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11378752446,
+  "lat": 38.3140658,
+  "lon": -123.0470688,
+  "timestamp": "2023-11-27T01:26:57Z",
+  "version": 1,
+  "changeset": 144489744,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11509823817,
+  "lat": 38.0867465,
+  "lon": -122.5619191,
+  "timestamp": "2024-01-12T01:39:34Z",
+  "version": 1,
+  "changeset": 146163135,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11707634035,
+  "lat": 38.0886029,
+  "lon": -122.5710049,
+  "timestamp": "2024-03-09T06:15:17Z",
+  "version": 1,
+  "changeset": 148409763,
+  "user": "Bandit_",
+  "uid": 21185117,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11736034106,
+  "lat": 38.3516705,
+  "lon": -123.0482158,
+  "timestamp": "2024-03-16T03:42:07Z",
+  "version": 1,
+  "changeset": 148715737,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 11817665024,
+  "lat": 38.3699288,
+  "lon": -122.8989757,
+  "timestamp": "2024-04-15T03:38:38Z",
+  "version": 1,
+  "changeset": 150016189,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 11840476470,
+  "lat": 38.0763563,
+  "lon": -122.5835753,
+  "timestamp": "2024-06-07T16:51:22Z",
+  "version": 2,
+  "changeset": 152385231,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11842537118,
+  "lat": 38.1105817,
+  "lon": -122.5645348,
+  "timestamp": "2024-04-23T23:47:18Z",
+  "version": 1,
+  "changeset": 150418890,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11861533476,
+  "lat": 38.4051897,
+  "lon": -122.8465717,
+  "timestamp": "2024-07-01T02:09:56Z",
+  "version": 2,
+  "changeset": 153391147,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "covered": "no",
+    "fee": "no",
+    "fountain": "bubbler",
+    "man_made": "drinking_fountain",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11861533517,
+  "lat": 38.4058535,
+  "lon": -122.8465716,
+  "timestamp": "2024-07-01T02:09:56Z",
+  "version": 2,
+  "changeset": 153391147,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "covered": "no",
+    "fee": "no",
+    "fountain": "bubbler",
+    "man_made": "drinking_fountain",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11954293030,
+  "lat": 38.0222548,
+  "lon": -122.7360590,
+  "timestamp": "2024-06-03T17:38:46Z",
+  "version": 1,
+  "changeset": 152210583,
+  "user": "Dolphinholmer",
+  "uid": 614740,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 11976934501,
+  "lat": 38.4031331,
+  "lon": -122.8237922,
+  "timestamp": "2025-07-25T06:10:23Z",
+  "version": 2,
+  "changeset": 169433798,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "covered": "no",
+    "dog": "yes",
+    "fountain": "bubbler",
+    "hot_water": "no",
+    "indoor": "no",
+    "operator": "City of Sebastopol",
+    "seasonal": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11984885990,
+  "lat": 38.4021348,
+  "lon": -122.8384676,
+  "timestamp": "2026-03-16T04:57:03Z",
+  "version": 2,
+  "changeset": 179927383,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "covered": "no",
+    "dog": "yes",
+    "fee": "no",
+    "fountain": "bubbler",
+    "hot_water": "no",
+    "indoor": "no",
+    "operator": "City of Sebastopol",
+    "seasonal": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12018308845,
+  "lat": 38.1222711,
+  "lon": -122.5274188,
+  "timestamp": "2024-06-28T17:41:16Z",
+  "version": 1,
+  "changeset": 153304396,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12024322770,
+  "lat": 38.4047408,
+  "lon": -122.8463047,
+  "timestamp": "2024-07-01T02:09:56Z",
+  "version": 1,
+  "changeset": 153391147,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "dog": "yes",
+    "fee": "no",
+    "fountain": "bubbler",
+    "man_made": "drinking_fountain",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12062541955,
+  "lat": 38.4035849,
+  "lon": -122.8476741,
+  "timestamp": "2024-07-19T05:38:06Z",
+  "version": 1,
+  "changeset": 154127309,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "fee": "no",
+    "fountain": "bubbler",
+    "man_made": "drinking_fountain",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12113447971,
+  "lat": 38.6013561,
+  "lon": -123.1260235,
+  "timestamp": "2024-08-15T22:30:03Z",
+  "version": 1,
+  "changeset": 155303802,
+  "user": "danlessa",
+  "uid": 1198645,
+  "tags": {
+    "name": "Gravelly Spring",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 12169367331,
+  "lat": 38.4054853,
+  "lon": -122.8212597,
+  "timestamp": "2024-09-11T06:02:34Z",
+  "version": 1,
+  "changeset": 156466483,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "covered": "no",
+    "dog": "yes",
+    "fee": "no",
+    "fountain": "bubbler",
+    "indoor": "no",
+    "man_made": "drinking_fountain",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12169367386,
+  "lat": 38.4056159,
+  "lon": -122.8214272,
+  "timestamp": "2024-09-11T06:02:34Z",
+  "version": 1,
+  "changeset": 156466483,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "covered": "no",
+    "dog": "yes",
+    "fee": "no",
+    "fountain": "bubbler",
+    "indoor": "no",
+    "man_made": "drinking_fountain",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12210101600,
+  "lat": 38.3998479,
+  "lon": -122.8261191,
+  "timestamp": "2024-09-30T03:03:41Z",
+  "version": 1,
+  "changeset": 157276802,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "covered": "no",
+    "dog": "yes",
+    "fee": "no",
+    "fountain": "bubbler",
+    "hot_water": "no",
+    "indoor": "no",
+    "man_made": "drinking_fountain",
+    "operator": "City of Sebastopol",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12383688433,
+  "lat": 38.4383432,
+  "lon": -122.7114326,
+  "timestamp": "2024-11-29T03:57:46Z",
+  "version": 1,
+  "changeset": 159725762,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12414456509,
+  "lat": 38.4081950,
+  "lon": -122.8186485,
+  "timestamp": "2024-12-12T05:34:01Z",
+  "version": 1,
+  "changeset": 160193557,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "fee": "no",
+    "fountain": "bubbler"
+  }
+},
+{
+  "type": "node",
+  "id": 12414456536,
+  "lat": 38.4081917,
+  "lon": -122.8193323,
+  "timestamp": "2024-12-12T05:34:01Z",
+  "version": 1,
+  "changeset": 160193557,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "covered": "no",
+    "dog": "yes",
+    "fee": "no",
+    "fountain": "bubbler",
+    "hot_water": "no",
+    "indoor": "no",
+    "operator": "City of Sebastopol",
+    "seasonal": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12453344057,
+  "lat": 38.0300267,
+  "lon": -122.5503595,
+  "timestamp": "2024-12-26T16:46:29Z",
+  "version": 1,
+  "changeset": 160645662,
+  "user": "M GCS",
+  "uid": 2182541,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "fee": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12588823181,
+  "lat": 38.3328355,
+  "lon": -123.0230842,
+  "timestamp": "2025-02-15T01:24:00Z",
+  "version": 1,
+  "changeset": 162523334,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "drinking_water": "no",
+    "intermittent": "yes",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 12588839600,
+  "lat": 38.3337740,
+  "lon": -123.0208272,
+  "timestamp": "2025-02-15T01:24:00Z",
+  "version": 1,
+  "changeset": 162523334,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "drinking_water": "no",
+    "intermittent": "yes",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 12588839776,
+  "lat": 38.3419015,
+  "lon": -123.0060102,
+  "timestamp": "2025-02-15T01:24:00Z",
+  "version": 1,
+  "changeset": 162523334,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "drinking_water": "no",
+    "intermittent": "yes",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 12632573118,
+  "lat": 38.4378707,
+  "lon": -122.7113003,
+  "timestamp": "2025-03-03T06:23:52Z",
+  "version": 1,
+  "changeset": 163147019,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "fee": "no",
+    "fountain": "bubbler",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 12793497001,
+  "lat": 38.0209915,
+  "lon": -122.7346562,
+  "timestamp": "2025-04-27T22:00:34Z",
+  "version": 1,
+  "changeset": 165524927,
+  "user": "nocoast",
+  "uid": 15821985,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 12847880355,
+  "lat": 38.2928312,
+  "lon": -122.4581041,
+  "timestamp": "2025-05-18T23:32:52Z",
+  "version": 1,
+  "changeset": 166451829,
+  "user": "mapadu",
+  "uid": 9755853,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "covered": "no",
+    "fee": "no",
+    "indoor": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12997751749,
+  "lat": 38.0141622,
+  "lon": -122.6890962,
+  "timestamp": "2025-09-07T06:46:09Z",
+  "version": 2,
+  "changeset": 171569396,
+  "user": "DoAwheelie",
+  "uid": 21191384,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "fee": "no",
+    "fountain": "bubbler"
+  }
+},
+{
+  "type": "node",
+  "id": 13008561813,
+  "lat": 38.4145400,
+  "lon": -122.7575315,
+  "timestamp": "2025-07-18T05:42:38Z",
+  "version": 1,
+  "changeset": 169089987,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "covered": "no",
+    "dog": "no",
+    "fee": "no",
+    "fountain": "bubbler",
+    "man_made": "drinking_fountain",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13019759811,
+  "lat": 38.0776280,
+  "lon": -122.9744556,
+  "timestamp": "2025-07-23T21:14:24Z",
+  "version": 1,
+  "changeset": 169367385,
+  "user": "ray331",
+  "uid": 11726860,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13022306676,
+  "lat": 38.4023226,
+  "lon": -122.8244629,
+  "timestamp": "2025-07-25T06:10:23Z",
+  "version": 1,
+  "changeset": 169433798,
+  "user": "ahalavais",
+  "uid": 13699839,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "covered": "no",
+    "dog": "yes",
+    "fee": "no",
+    "fountain": "bubbler",
+    "hot_water": "no",
+    "indoor": "no",
+    "operator": "City of Sebastopol",
+    "seasonal": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13033206195,
+  "lat": 38.0254272,
+  "lon": -122.5174634,
+  "timestamp": "2025-07-29T05:23:13Z",
+  "version": 1,
+  "changeset": 169649472,
+  "user": "carlwalsh",
+  "uid": 12286289,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13113183814,
+  "lat": 38.4001652,
+  "lon": -123.0944738,
+  "timestamp": "2025-09-01T22:43:27Z",
+  "version": 1,
+  "changeset": 171336347,
+  "user": "jraller",
+  "uid": 46789,
+  "tags": {
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "bubbler": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13136978510,
+  "lat": 38.4086860,
+  "lon": -122.7378539,
+  "timestamp": "2025-09-11T20:18:01Z",
+  "version": 1,
+  "changeset": 171801978,
+  "user": "IFSR",
+  "uid": 23057678,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 13156766084,
+  "lat": 38.4107171,
+  "lon": -122.7082996,
+  "timestamp": "2025-09-19T18:51:33Z",
+  "version": 1,
+  "changeset": 172178204,
+  "user": "IFSR",
+  "uid": 23057678,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 13168377955,
+  "lat": 38.4193512,
+  "lon": -122.7074408,
+  "timestamp": "2025-09-24T21:28:51Z",
+  "version": 1,
+  "changeset": 172413441,
+  "user": "IFSR",
+  "uid": 23057678,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 13343897721,
+  "lat": 38.0140622,
+  "lon": -122.7176931,
+  "timestamp": "2025-12-01T05:54:14Z",
+  "version": 1,
+  "changeset": 175341541,
+  "user": "Dolphinholmer",
+  "uid": 614740,
+  "tags": {
+    "name": "Crystal Springs",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 13608578201,
+  "lat": 38.0183663,
+  "lon": -122.7334577,
+  "timestamp": "2026-03-01T01:09:14Z",
+  "version": 1,
+  "changeset": 179192411,
+  "user": "ForestHiker",
+  "uid": 23082314,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 13633180246,
+  "lat": 38.8974655,
+  "lon": -122.7986008,
+  "timestamp": "2026-03-10T07:19:29Z",
+  "version": 1,
+  "changeset": 179621960,
+  "user": "bikesexuals",
+  "uid": 21190596,
+  "tags": {
+    "name": "Poison Smith Spring",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 13633180247,
+  "lat": 38.8911983,
+  "lon": -122.7992099,
+  "timestamp": "2026-03-10T07:19:29Z",
+  "version": 1,
+  "changeset": 179621960,
+  "user": "bikesexuals",
+  "uid": 21190596,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 13633180248,
+  "lat": 38.8695133,
+  "lon": -122.7683943,
+  "timestamp": "2026-03-10T07:19:29Z",
+  "version": 1,
+  "changeset": 179621960,
+  "user": "bikesexuals",
+  "uid": 21190596,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 13633180249,
+  "lat": 38.8670291,
+  "lon": -122.7627560,
+  "timestamp": "2026-03-10T07:19:29Z",
+  "version": 1,
+  "changeset": 179621960,
+  "user": "bikesexuals",
+  "uid": 21190596,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 13633180250,
+  "lat": 38.8408927,
+  "lon": -122.8244227,
+  "timestamp": "2026-03-10T07:19:29Z",
+  "version": 1,
+  "changeset": 179621960,
+  "user": "bikesexuals",
+  "uid": 21190596,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 13633180251,
+  "lat": 38.8420888,
+  "lon": -122.8278875,
+  "timestamp": "2026-03-10T07:19:29Z",
+  "version": 1,
+  "changeset": 179621960,
+  "user": "bikesexuals",
+  "uid": 21190596,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 13633180252,
+  "lat": 38.8429476,
+  "lon": -122.8278016,
+  "timestamp": "2026-03-10T07:19:29Z",
+  "version": 1,
+  "changeset": 179621960,
+  "user": "bikesexuals",
+  "uid": 21190596,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 13670788104,
+  "lat": 38.6109498,
+  "lon": -122.8705280,
+  "timestamp": "2026-03-23T04:59:22Z",
+  "version": 1,
+  "changeset": 180281877,
+  "user": "Jungle J",
+  "uid": 4671396,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13778646090,
+  "lat": 38.4842544,
+  "lon": -123.0105100,
+  "timestamp": "2026-04-30T03:42:11Z",
+  "version": 1,
+  "changeset": 182014491,
+  "user": "JessAk71",
+  "uid": 381909,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 13805365029,
+  "lat": 38.6440697,
+  "lon": -122.5485790,
+  "timestamp": "2026-05-07T05:07:19Z",
+  "version": 1,
+  "changeset": 182321077,
+  "user": "bikesexuals",
+  "uid": 21190596,
+  "tags": {
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 13805365167,
+  "lat": 38.6722017,
+  "lon": -122.5903821,
+  "timestamp": "2026-05-07T05:07:19Z",
+  "version": 1,
+  "changeset": 182321077,
+  "user": "bikesexuals",
+  "uid": 21190596,
+  "tags": {
+    "name": "Rattlesnake Spring",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 13921351291,
+  "lat": 38.2656362,
+  "lon": -122.6532053,
+  "timestamp": "2026-06-08T23:30:06Z",
+  "version": 1,
+  "changeset": 183851043,
+  "user": "Jungle J",
+  "uid": 4671396,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "no",
+    "fee": "no",
+    "seasonal": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13958674454,
+  "lat": 38.4633005,
+  "lon": -122.6444544,
+  "timestamp": "2026-06-22T20:54:52Z",
+  "version": 1,
+  "changeset": 184449504,
+  "user": "nianticgarbage",
+  "uid": 7131632,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 13998689977,
+  "lat": 38.3128712,
+  "lon": -123.0488895,
+  "timestamp": "2026-07-08T23:36:36Z",
+  "version": 1,
+  "changeset": 185374254,
+  "user": "BHSPitMonkey",
+  "uid": 1886770,
+  "tags": {
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 14005604919,
+  "lat": 38.4352691,
+  "lon": -122.7130113,
+  "timestamp": "2026-07-12T01:39:25Z",
+  "version": 1,
+  "changeset": 185567838,
+  "user": "Loopslol7",
+  "uid": 23789928,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water"
+  }
+},
+{
+  "type": "node",
+  "id": 14080873848,
+  "lat": 38.4999429,
+  "lon": -122.9943506,
+  "timestamp": "2026-08-08T19:32:17Z",
+  "version": 1,
+  "changeset": 187150110,
+  "user": "xenotropic",
+  "uid": 583692,
+  "tags": {
+    "amenity": "drinking_water",
+    "name": "Guerneville Park drinking fountain"
+  }
+},
+{
+  "type": "node",
+  "id": 14080884818,
+  "lat": 38.5013850,
+  "lon": -122.9981185,
+  "timestamp": "2026-08-08T19:41:01Z",
+  "version": 1,
+  "changeset": 187150475,
+  "user": "xenotropic",
+  "uid": 583692,
+  "tags": {
+    "amenity": "drinking_water",
+    "name": "Downtown guerneville public restroom drinking fountain"
+  }
+},
+{
+  "type": "node",
+  "id": 14108596455,
+  "lat": 38.2524342,
+  "lon": -122.6005750,
+  "timestamp": "2026-08-21T01:02:47Z",
+  "version": 1,
+  "changeset": 187770951,
+  "user": "rawrbsss",
+  "uid": 24442191,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "bottle": "yes",
+    "description": "Recently Installed (2024-2025). Has a dog bowl, bottle filling spigot, and person water stream. Modern.",
+    "dog": "yes",
+    "fee": "no",
+    "operator": "Petaluma Parks & Recreation",
+    "seasonal": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 14178851791,
+  "lat": 38.0299572,
+  "lon": -122.5759286,
+  "timestamp": "2026-09-13T23:37:37Z",
+  "version": 1,
+  "changeset": 188985555,
+  "user": "M GCS",
+  "uid": 2182541,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "fee": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 14275393079,
+  "lat": 38.0001830,
+  "lon": -122.3562645,
+  "timestamp": "2026-10-12T00:10:40Z",
+  "version": 1,
+  "changeset": 190374311,
+  "user": "mapadu",
+  "uid": 9755853,
+  "tags": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "fee": "no"
+  }
+}
+
+  ]
+}
