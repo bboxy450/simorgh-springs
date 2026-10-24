@@ -26,6 +26,15 @@ pub fn kind_from_tags(tags: &Tags) -> Option<Kind> {
     if tag("natural") == Some("hot_spring") || tag("hot_spring") == Some("yes") {
         return Some(Kind::Hot);
     }
+    if tag("amenity") == Some("public_bath")
+        && tag("bath:type").is_some_and(|value| {
+            value
+                .split(';')
+                .any(|part| matches!(part.trim(), "thermal" | "onsen" | "hot_spring"))
+        })
+    {
+        return Some(Kind::HotCommercial);
+    }
     if tag("natural") != Some("spring") {
         return None;
     }
@@ -34,6 +43,15 @@ pub fn kind_from_tags(tags: &Tags) -> Option<Kind> {
         Some("no") => Kind::NotPotable,
         _ => Kind::Spring,
     })
+}
+
+pub(crate) fn website_url(value: &str) -> Option<String> {
+    let url = reqwest::Url::parse(value.trim()).ok()?;
+    (url.scheme() == "https"
+        && url.host_str().is_some()
+        && url.username().is_empty()
+        && url.password().is_none())
+    .then(|| url.into())
 }
 
 /// Decimal (dot/comma) or DMS coordinates, including N/S/E/W/O/Ø hemispheres.

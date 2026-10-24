@@ -1,4 +1,4 @@
-use crate::normalize::{text, valid_coordinates};
+use crate::normalize::{text, valid_coordinates, website_url};
 use crate::{
     Bbox, Client, Error, Progress, Record, RecordStream, Result, Source, SourceId, Tags, Vitals,
     kind_from_tags, photo_url,
@@ -6,7 +6,8 @@ use crate::{
 use serde::Deserialize;
 use std::collections::BTreeSet;
 
-/// Overpass node source. A 20-degree global grid covers all land (and oceans).
+/// Overpass nodes and commercial bath ways (by centre). A 20-degree global grid
+/// covers all land (and oceans).
 #[derive(Debug, Clone)]
 pub struct Osm {
     pub endpoints: Vec<String>,
@@ -30,7 +31,7 @@ impl Osm {
     pub fn query(b: Bbox) -> String {
         let bbox = format!("{},{},{},{}", b.south, b.west, b.north, b.east);
         format!(
-            "[out:json][timeout:300];(node[\"natural\"=\"spring\"]({bbox});node[\"natural\"=\"hot_spring\"]({bbox});node[\"amenity\"=\"drinking_water\"]({bbox}););out tags center meta;"
+            "[out:json][timeout:300];(node[\"natural\"=\"spring\"]({bbox});node[\"natural\"=\"hot_spring\"]({bbox});node[\"amenity\"=\"drinking_water\"]({bbox});node[\"amenity\"=\"public_bath\"][\"bath:type\"~\"(^|;)[[:space:]]*(thermal|onsen|hot_spring)[[:space:]]*(;|$)\"]({bbox});way[\"amenity\"=\"public_bath\"][\"bath:type\"~\"(^|;)[[:space:]]*(thermal|onsen|hot_spring)[[:space:]]*(;|$)\"]({bbox}););out tags center meta;"
         )
     }
     fn boxes(&self) -> Vec<Bbox> {
@@ -95,16 +96,18 @@ impl Osm {
         }
         let mut records = Vec::new();
         for node in data.elements {
-            if node.element_type != "node" {
+            if !matches!(node.element_type.as_str(), "node" | "way") {
                 continue;
             }
             let Some(kind) = kind_from_tags(&node.tags) else {
                 continue;
             };
-            let pair = node
-                .lat
-                .zip(node.lon)
-                .or_else(|| node.center.map(|c| (c.lat, c.lon)));
+            let center = node.center.map(|c| (c.lat, c.lon));
+            let pair = if node.element_type == "way" {
+                center
+            } else {
+                node.lat.zip(node.lon).or(center)
+            };
             let Some((lat, lon)) = pair.and_then(|(lat, lon)| valid_coordinates(lat, lon)) else {
                 progress.reject();
                 continue;
@@ -123,7 +126,11 @@ impl Osm {
                 region: None,
                 summary: tag("description", 280),
                 vitals: Vitals {
-                    fee: tag("fee", 40),
+                    fee: if node.tags.get("fee").map(String::as_str) == Some("yes") {
+                        tag("charge", 40).or_else(|| tag("fee", 40))
+                    } else {
+                        tag("fee", 40)
+                    },
                     access: tag("access", 40),
                     flow: match node.tags.get("intermittent").map(String::as_str) {
                         Some("yes") => Some("intermittent".into()),
@@ -131,11 +138,16 @@ impl Osm {
                         _ => None,
                     },
                     temperature: tag("temperature", 40),
+                    hours: tag("opening_hours", 80),
+                    website: node.tags.get("website").and_then(|s| website_url(s)),
                 },
                 photo_url: image,
                 source: SourceId::Osm,
-                source_ref: format!("node/{}", node.id),
-                source_url: format!("https://www.openstreetmap.org/node/{}", node.id),
+                source_ref: format!("{}/{}", node.element_type, node.id),
+                source_url: format!(
+                    "https://www.openstreetmap.org/{}/{}",
+                    node.element_type, node.id
+                ),
                 source_modified_at: node.timestamp,
                 wikidata: tag("wikidata", 40).filter(|s| {
                     s.starts_with('Q') && s[1..].chars().all(|c| c.is_ascii_digit()) && s.len() > 1

@@ -56,6 +56,142 @@ fn tag_to_kind_mapping() {
     }
 }
 #[test]
+fn commercial_bath_tags_and_natural_hot_precedence() {
+    for bath_type in ["thermal", "onsen", "hot_spring", "foot_bath; onsen ;cold"] {
+        let mut tags = Tags::from([
+            ("amenity".into(), "public_bath".into()),
+            ("bath:type".into(), bath_type.into()),
+            ("fee".into(), "yes".into()),
+        ]);
+        assert_eq!(kind_from_tags(&tags), Some(Kind::HotCommercial));
+        tags.insert("natural".into(), "hot_spring".into());
+        assert_eq!(kind_from_tags(&tags), Some(Kind::Hot));
+    }
+    for (amenity, bath_type) in [
+        ("public_bath", "cold"),
+        ("public_bath", ""),
+        ("public_bath", "nonthermal"),
+        ("spa", "thermal"),
+        ("", "onsen"),
+    ] {
+        let tags = Tags::from([
+            ("amenity".into(), amenity.into()),
+            ("bath:type".into(), bath_type.into()),
+        ]);
+        assert_eq!(kind_from_tags(&tags), None);
+    }
+    assert_eq!(
+        kind_from_tags(&Tags::from([("leisure".into(), "spa".into())])),
+        None
+    );
+    assert_eq!(
+        kind_from_tags(&Tags::from([
+            ("natural".into(), "hot_spring".into()),
+            ("fee".into(), "yes".into()),
+        ])),
+        Some(Kind::Hot)
+    );
+}
+
+#[test]
+fn commercial_hot_merge_compatibility_in_both_directions() {
+    for kind in [
+        Kind::Hot,
+        Kind::HotCommercial,
+        Kind::Spring,
+        Kind::Drinking,
+        Kind::NotPotable,
+        Kind::Tap,
+    ] {
+        for (primary, lower) in [(Kind::HotCommercial, kind), (kind, Kind::HotCommercial)] {
+            let rows = merge([
+                record(SourceId::Osm, "node/1", primary, 38.0, -122.0),
+                record(SourceId::Wikidata, "Q1", lower, 38.0001, -122.0),
+            ]);
+            let compatible = matches!(kind, Kind::Hot | Kind::HotCommercial);
+            assert_eq!(rows.len(), if compatible { 1 } else { 2 });
+            assert_eq!(rows[0].record.kind, primary);
+            assert_eq!(rows[0].cautionary, primary == Kind::NotPotable);
+        }
+    }
+}
+
+#[test]
+fn commercial_150_m_boundary_and_same_source_separation() {
+    let degree = 150.0 / 6_371_008.8 * 180.0 / std::f64::consts::PI;
+    let natural = record(SourceId::Osm, "node/1", Kind::Hot, 38.0, -122.0);
+    let rows = merge([
+        natural.clone(),
+        record(
+            SourceId::Wikidata,
+            "Q1",
+            Kind::HotCommercial,
+            38.0 + degree * 0.999,
+            -122.0,
+        ),
+        record(
+            SourceId::Wikidata,
+            "Q2",
+            Kind::HotCommercial,
+            38.0 + degree * 1.001,
+            -122.0,
+        ),
+    ]);
+    assert_eq!(rows.len(), 2);
+    assert_eq!(rows[0].sources.len(), 2);
+    let rows = merge([
+        natural,
+        record(
+            SourceId::Osm,
+            "node/2",
+            Kind::HotCommercial,
+            38.0001,
+            -122.0,
+        ),
+        record(SourceId::Osm, "way/1", Kind::HotCommercial, 38.0001, -122.0),
+    ]);
+    assert_eq!(rows.len(), 3);
+    assert!(rows.iter().all(|r| r.sources.len() == 1));
+}
+
+#[test]
+fn commercial_kind_and_vitals_json_contract_is_additive() {
+    let old: Vitals = serde_json::from_value(serde_json::json!({
+        "fee": "yes", "access": null, "flow": null, "temperature": null
+    }))
+    .unwrap();
+    assert!(old.hours.is_none());
+    assert!(old.website.is_none());
+    let mut row = record(SourceId::Osm, "way/1", Kind::HotCommercial, 38.0, -122.0);
+    row.vitals.hours = Some("Mo-Su 09:00-21:00".into());
+    row.vitals.website = Some("https://example.test/bath".into());
+    let json = serde_json::to_value(&row).unwrap();
+    assert_eq!(json["kind"], "hot_commercial");
+    assert_eq!(json["vitals"]["hours"], "Mo-Su 09:00-21:00");
+    assert_eq!(json["vitals"]["website"], "https://example.test/bath");
+    assert_eq!(serde_json::from_value::<Record>(json).unwrap(), row);
+}
+
+#[test]
+fn merge_keeps_primary_commercial_vitals_even_when_missing() {
+    for present in [false, true] {
+        let mut primary = record(SourceId::Osm, "way/1", Kind::HotCommercial, 38.0, -122.0);
+        if present {
+            primary.vitals.hours = Some("09:00-21:00".into());
+            primary.vitals.website = Some("https://primary.test/".into());
+            primary.vitals.fee = Some("20 EUR".into());
+        }
+        let mut lower = record(SourceId::Wikidata, "Q1", Kind::HotCommercial, 38.0, -122.0);
+        lower.vitals.hours = Some("24/7".into());
+        lower.vitals.website = Some("https://lower.test/".into());
+        lower.vitals.fee = Some("yes".into());
+        let expected = primary.vitals.clone();
+        let rows = merge([lower, primary]);
+        assert_eq!(rows.len(), 1);
+        assert_eq!(rows[0].record.vitals, expected);
+    }
+}
+#[test]
 fn decimal_comma_dot_zero_width_and_trailing_comma() {
     for s in ["38.5", "38,5", "\u{feff}38\u{200b}.5,", " 38,5 N, "] {
         assert_eq!(parse_coordinate(s, Axis::Latitude), Some(38.5), "{s}");
@@ -264,7 +400,7 @@ fn bbox_validation_and_antimeridian() {
 }
 #[test]
 fn embedded_verifier_is_offline() {
-    assert_eq!(verification::verify().unwrap().len(), 7);
+    assert_eq!(verification::verify().unwrap().len(), 9);
 }
 #[test]
 fn cli_verify_runs_embedded_fixtures() {

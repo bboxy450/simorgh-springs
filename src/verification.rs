@@ -11,7 +11,10 @@ use std::io::Cursor;
 pub fn verify() -> Result<Vec<(&'static str, usize)>> {
     let p = Progress::default();
     let osm = Osm::parse(include_bytes!("../fixtures/overpass.json"), &p)?;
+    let baths = Osm::parse(include_bytes!("../fixtures/overpass-commercial.json"), &p)?;
     let (wikidata, bindings) = Wikidata::parse(include_bytes!("../fixtures/wikidata.json"), &p)?;
+    let (commercial, _) =
+        Wikidata::parse(include_bytes!("../fixtures/wikidata-commercial.json"), &p)?;
     let gnis = Gnis::parse(&include_bytes!("../fixtures/gnis.txt")[..], &p)?;
     let noaa = Noaa::parse(Cursor::new(include_bytes!("../fixtures/noaa.xlsx")), &p)?;
     let check = |ok: bool, name: &str| {
@@ -26,6 +29,20 @@ pub fn verify() -> Result<Vec<(&'static str, usize)>> {
         "OSM tags",
     )?;
     check(bindings == 5000 && !wikidata.is_empty(), "Wikidata page")?;
+    check(
+        baths.len() == 40
+            && baths.iter().any(|r| {
+                r.kind == Kind::HotCommercial
+                    && r.source_ref.starts_with("way/")
+                    && r.vitals.hours.is_some()
+                    && r.vitals.website.is_some()
+            }),
+        "OSM commercial baths",
+    )?;
+    check(
+        !commercial.is_empty() && commercial.iter().all(|r| r.kind == Kind::HotCommercial),
+        "Wikidata commercial baths",
+    )?;
     check(
         gnis.len() == 300 && gnis[0].name.as_deref() == Some("A Ninetysix Spring"),
         "GNIS rows",
@@ -59,6 +76,8 @@ pub fn verify() -> Result<Vec<(&'static str, usize)>> {
     Ok(vec![
         ("overpass", osm.len()),
         ("wikidata", wikidata.len()),
+        ("overpass_commercial", baths.len()),
+        ("wikidata_commercial", commercial.len()),
         ("gnis", gnis.len()),
         ("noaa", noaa.len()),
         ("coordinates", 2),

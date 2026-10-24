@@ -67,20 +67,30 @@ runtime resource errors and oversized responses split a box into four, to a
 maximum depth of ten; exhaustion yields an error, never a false complete pass.
 The secondary Overpass endpoint handles other primary endpoint failures.
 Wikidata uses stable ordered `LIMIT 5000 OFFSET n` pages and subclass paths for
-spring membership and hot-spring classification. NOAA and GNIS each download
+spring, onsen (Q655311) and thermal bath (Q1004887) membership and hot-spring
+classification. NOAA and GNIS each download
 once per successful pass into an automatically deleted temporary file, then
 parse the archived XLSX or ZIP/pipe-delimited text. Retries can repeat a failed
 download. GNIS ZIP entries are limited to 1 GiB uncompressed.
 
 ## Normalization and merge
 
-Kinds are `drinking`, `spring`, `not_potable`, `hot`, `tap`. OSM drinking-water
+Kinds are `drinking`, `spring`, `not_potable`, `hot`, `hot_commercial`, `tap`. OSM drinking-water
 amenities are taps; heat takes precedence over potability on natural springs.
+Public baths with a `bath:type` value of `thermal`, `onsen` or `hot_spring`
+(including semicolon-separated values) are commercial hot springs; both nodes
+and ways are queried, with ways located by their centre. A natural hot spring
+stays `hot` even with a fee or public-bath tags. Generic spas are excluded.
 Only `not_potable` sets `cautionary`. GNIS rows are springs, NOAA rows are hot;
-Wikidata hot subclasses are hot and other springs have unknown potability.
+Wikidata onsen/thermal bath subclasses are commercial, other hot subclasses
+are hot and other springs have unknown potability.
 
-Names trim to 200 Unicode scalars, summaries to 280, and vitals to 40. Vitals
-contain only `fee`, `access`, `flow` and `temperature`. NOAA's nonnumeric B/H/W
+Names trim to 200 Unicode scalars, summaries to 280, and text vitals to 40
+except `hours` (80). Vitals contain `fee`, `access`, `flow`, `temperature`,
+`hours` and `website`. OSM `opening_hours` supplies hours; when `fee=yes`,
+nonempty `charge` supplies the fee text, otherwise the original fee is kept.
+Website accepts only complete HTTPS URLs without credentials and is never
+truncated. Missing values are null. NOAA's nonnumeric B/H/W
 temperature codes remain null. Coordinates accept decimal comma/dot, DMS,
 N/S/E/W/O/Ø (Ost/Øst = east), zero-width cleanup and trailing commas. Wrong axes,
 invalid ranges, nonfinite numbers and pairs with both magnitudes below 0.01
@@ -91,13 +101,13 @@ are converted to HTTPS Commons links. Image bytes are never requested.
 `merge` sorts by `osm > wikidata > noaa > gnis`, then source reference, with a
 canonical tie-break for duplicate source IDs. A strictly lower-precedence row
 within 150 m (great-circle distance) folds into the nearest compatible primary:
-spring/drinking/not_potable together, hot with hot. Equal-distance ties use the
+spring/drinking/not_potable together, hot/hot_commercial together. Equal-distance ties use the
 primary's stable order. Same-source rows remain separate. An OSM `wikidata`
 link folds that item regardless of distance or kind, except that taps **never**
 merge. Matching uses primary coordinates, without transitive chains.
 
 Only missing name, summary, photo, region and temperature are filled. Primary
-kind, coordinates, timestamps, access and fee stay primary. All contributing
+kind, coordinates, timestamps, access, fee, hours and website stay primary. All contributing
 references appear in precedence order, primary first. The same input records
 produce the same output regardless of input order.
 

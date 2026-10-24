@@ -173,7 +173,69 @@ async fn overpass_fixture_and_user_agent_query() {
         .into_owned();
     assert!(query.contains("[timeout:300]"));
     assert!(query.contains("out tags center meta"));
+    for element in ["node", "way"] {
+        assert!(query.contains(&format!("{element}[\"amenity\"=\"public_bath\"]")));
+    }
+    assert!(query.contains("[\"bath:type\"~"));
+    assert!(query.contains("thermal|onsen|hot_spring"));
     assert!(query.contains("38,-123.2,38.9,-122.3"));
+}
+
+#[tokio::test]
+async fn overpass_commercial_live_fixture_nodes_ways_and_vitals() {
+    let stub = Stub::new(vec![Reply::ok(
+        include_bytes!("../fixtures/overpass-commercial.json").to_vec(),
+    )])
+    .await;
+    let p = Progress::default();
+    let rows = Osm {
+        endpoints: vec![stub.url.clone()],
+        bbox: Some(Bbox::new(-90.0, -180.0, 90.0, 180.0).unwrap()),
+        ..Osm::default()
+    }
+    .fetch(&client(), &p)
+    .try_collect::<Vec<_>>()
+    .await
+    .unwrap();
+    assert_eq!(rows.len(), 40);
+    assert_eq!(p.rejected(), 0);
+    assert_eq!(
+        rows.iter()
+            .filter(|r| r.kind == Kind::HotCommercial)
+            .count(),
+        38
+    );
+    assert_eq!(
+        rows.iter()
+            .filter(|r| r.source_ref.starts_with("way/"))
+            .count(),
+        20
+    );
+    let bath = rows
+        .iter()
+        .find(|r| r.source_ref == "way/14614902")
+        .unwrap();
+    assert_eq!((bath.latitude, bath.longitude), (48.8095632, 9.2229348));
+    assert_eq!(bath.vitals.fee.as_deref(), Some("yes"));
+    assert_eq!(bath.vitals.hours.as_deref(), Some("Mo-Su 09:00-21:30"));
+    assert_eq!(
+        bath.vitals.website.as_deref(),
+        Some("https://stuttgarterbaeder.de/solebadcannstatt/sauna")
+    );
+    assert!(
+        rows.iter()
+            .find(|r| r.source_ref == "way/10268667")
+            .unwrap()
+            .vitals
+            .website
+            .is_none()
+    );
+    let natural = rows
+        .iter()
+        .find(|r| r.source_ref == "way/40198881")
+        .unwrap();
+    assert_eq!(natural.kind, Kind::Hot);
+    assert_eq!(natural.vitals.fee.as_deref(), Some("yes"));
 }
 #[tokio::test]
 async fn wikidata_fixture_paging_modified_hot_and_photo() {
@@ -219,8 +281,187 @@ async fn wikidata_fixture_paging_modified_hot_and_photo() {
             .into_owned();
         assert!(q.contains(&format!("LIMIT 5000 OFFSET {}", n * 5000)));
         assert!(q.contains("wdt:P31/wdt:P279* wd:Q177380"));
+        assert!(q.contains("VALUES ?class { wd:Q124714 wd:Q655311 wd:Q1004887 }"));
+        assert!(q.contains("?item wdt:P31/wdt:P279* ?class; wdt:P625 ?coord"));
+        assert!(q.contains("VALUES ?bathClass { wd:Q655311 wd:Q1004887 }"));
+        assert!(q.contains("?item wdt:P31/wdt:P279* ?bathClass"));
+        assert!(q.contains("AS ?commercial"));
+        assert!(q.starts_with("SELECT DISTINCT"));
         assert_eq!(r.ua, ClientConfig::default().user_agent);
     }
+}
+
+#[tokio::test]
+async fn overpass_commercial_vitals_fee_hours_and_https_website() {
+    let fee_cases = [
+        (Some("yes"), Some("  20   EUR  "), Some("20 EUR")),
+        (Some("yes"), None, Some("yes")),
+        (Some("yes"), Some(" \n "), Some("yes")),
+        (Some("no"), Some("20 EUR"), Some("no")),
+        (None, Some("20 EUR"), None),
+        (Some("donation"), Some("20 EUR"), Some("donation")),
+    ];
+    let websites = [
+        "https://example.test/bath",
+        "http://example.test/bath",
+        "javascript:alert(1)",
+        "//example.test/bath",
+        "https://user:password@example.test/bath",
+        "ftp://example.test/bath",
+    ];
+    let long_charge = "€".repeat(50);
+    let long_hours = format!("  {}\n\t", "湯".repeat(90));
+    let long_website = format!("https://example.test/{}", "a".repeat(200));
+    let mut elements = Vec::new();
+    for (i, (fee, charge, _)) in fee_cases.iter().enumerate() {
+        let mut tags = serde_json::json!({
+            "amenity": "public_bath", "bath:type": "thermal",
+            "opening_hours": " Mo-Su  09:00-21:00\n", "website": websites[i]
+        });
+        if let Some(fee) = fee {
+            tags["fee"] = (*fee).into();
+        }
+        if let Some(charge) = charge {
+            tags["charge"] = (*charge).into();
+        }
+        elements.push(
+            serde_json::json!({"type":"node", "id":i, "lat":38.1, "lon":-122.5, "tags":tags}),
+        );
+    }
+    elements.push(serde_json::json!({
+        "type":"node", "id":100, "lat":38.1, "lon":-122.5,
+        "tags":{"natural":"hot_spring", "fee":"yes", "charge":long_charge,
+            "opening_hours":long_hours, "website":long_website}
+    }));
+    let stub = Stub::new(vec![Reply::ok(
+        serde_json::to_vec(&serde_json::json!({"elements":elements})).unwrap(),
+    )])
+    .await;
+    let rows = osm(&stub)
+        .fetch(&client(), &Progress::default())
+        .try_collect::<Vec<_>>()
+        .await
+        .unwrap();
+    assert_eq!(rows.len(), 7);
+    for (i, (_, _, fee)) in fee_cases.iter().enumerate() {
+        assert_eq!(rows[i].kind, Kind::HotCommercial);
+        assert_eq!(rows[i].vitals.fee.as_deref(), *fee);
+        assert_eq!(rows[i].vitals.hours.as_deref(), Some("Mo-Su 09:00-21:00"));
+        assert_eq!(
+            rows[i].vitals.website.as_deref(),
+            if i == 0 { Some(websites[0]) } else { None }
+        );
+    }
+    assert_eq!(rows[6].kind, Kind::Hot);
+    assert_eq!(rows[6].vitals.fee, Some("€".repeat(40)));
+    assert_eq!(rows[6].vitals.hours, Some("湯".repeat(80)));
+    assert_eq!(
+        rows[6].vitals.website.as_deref(),
+        Some(long_website.as_str())
+    );
+}
+
+#[tokio::test]
+async fn overpass_way_centres_provenance_and_invalid_centres() {
+    let tags = serde_json::json!({"amenity":"public_bath", "bath:type":"onsen"});
+    let body = serde_json::json!({"elements":[
+        {"type":"node", "id":1, "lat":38.1, "lon":-122.5, "tags":tags},
+        {"type":"way", "id":1, "lat":0, "lon":0, "center":{"lat":38.2,"lon":-122.6}, "tags":tags},
+        {"type":"way", "id":2, "lat":38.1, "lon":-122.5, "tags":tags},
+        {"type":"way", "id":3, "center":{"lat":0,"lon":0}, "tags":tags},
+        {"type":"relation", "id":4, "center":{"lat":38.1,"lon":-122.5}, "tags":tags},
+        {"type":"node", "id":5, "lat":38.1, "lon":-122.5, "tags":{"amenity":"spa"}},
+        {"type":"way", "id":6, "center":{"lat":38.1,"lon":-122.5}, "tags":{"leisure":"spa"}}
+    ]});
+    let stub = Stub::new(vec![Reply::ok(serde_json::to_vec(&body).unwrap())]).await;
+    let p = Progress::default();
+    let rows = osm(&stub)
+        .fetch(&client(), &p)
+        .try_collect::<Vec<_>>()
+        .await
+        .unwrap();
+    assert_eq!(rows.len(), 2);
+    assert_eq!(p.rejected(), 2);
+    assert_eq!(rows[0].source_ref, "node/1");
+    assert_eq!(rows[1].source_ref, "way/1");
+    assert_eq!(rows[1].source_url, "https://www.openstreetmap.org/way/1");
+    assert_eq!((rows[1].latitude, rows[1].longitude), (38.2, -122.6));
+    assert!(rows[1].source_modified_at.is_none());
+    assert!(rows[1].vitals.hours.is_none());
+    assert!(rows[1].vitals.website.is_none());
+}
+
+#[tokio::test]
+async fn wikidata_commercial_classification_precedes_hot_and_keeps_old_rows() {
+    let combinations = [
+        (Some("true"), "true", Kind::HotCommercial),
+        (Some("true"), "false", Kind::HotCommercial),
+        (Some("false"), "true", Kind::Hot),
+        (Some("false"), "false", Kind::Spring),
+        (None, "true", Kind::Hot),
+    ];
+    let bindings: Vec<_> = combinations
+        .iter()
+        .enumerate()
+        .map(|(i, (commercial, hot, _))| {
+            let mut binding = serde_json::json!({
+                "item":{"value":format!("http://www.wikidata.org/entity/Q{}", i+1)},
+                "coord":{"value":"Point(-122.5 38.1)"}, "hot":{"value":hot}
+            });
+            if let Some(value) = commercial {
+                binding["commercial"] = serde_json::json!({"value":value});
+            }
+            binding
+        })
+        .collect();
+    let stub = Stub::new(vec![Reply::ok(
+        serde_json::to_vec(&serde_json::json!({"results":{"bindings":bindings}})).unwrap(),
+    )])
+    .await;
+    let rows = Wikidata {
+        endpoint: stub.url.clone(),
+        ..Wikidata::default()
+    }
+    .fetch(&client(), &Progress::default())
+    .try_collect::<Vec<_>>()
+    .await
+    .unwrap();
+    assert_eq!(rows.len(), combinations.len());
+    for (row, (_, _, kind)) in rows.iter().zip(combinations) {
+        assert_eq!(row.kind, kind);
+        assert_eq!(row.vitals, Vitals::default());
+    }
+}
+
+#[tokio::test]
+async fn wikidata_commercial_live_fixture() {
+    let stub = Stub::new(vec![Reply::ok(
+        include_bytes!("../fixtures/wikidata-commercial.json").to_vec(),
+    )])
+    .await;
+    let p = Progress::default();
+    let rows = Wikidata {
+        endpoint: stub.url.clone(),
+        ..Wikidata::default()
+    }
+    .fetch(&client(), &p)
+    .try_collect::<Vec<_>>()
+    .await
+    .unwrap();
+    assert_eq!(rows.len(), 99);
+    assert_eq!(p.requests(), 1);
+    assert_eq!(p.rejected(), 0);
+    assert!(rows.iter().all(|r| r.kind == Kind::HotCommercial));
+    for id in ["Q1035288", "Q1037748"] {
+        assert_eq!(
+            rows.iter().find(|r| r.source_ref == id).unwrap().kind,
+            Kind::HotCommercial
+        );
+    }
+    assert!(
+        rows.iter()
+            .all(|r| r.source_url == format!("https://www.wikidata.org/wiki/{}", r.source_ref))
+    );
 }
 #[tokio::test]
 async fn gnis_zip_fixture_fields_and_date_fallback() {

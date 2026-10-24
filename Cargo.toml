@@ -1,6 +1,6 @@
 [package]
 name = "simorgh-springs"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 rust-version = "1.88"
 authors = ["Boxy <bboxy450@gmail.com>"]
@@ -10,7 +10,7 @@ repository = "https://github.com/bboxy450/simorgh-springs"
 readme = "README.md"
 keywords = ["springs", "openstreetmap", "wikidata", "geodata"]
 categories = ["science::geo", "command-line-utilities"]
-include = ["/src/**", "/tests/**", "/fixtures/**", "/Cargo.toml", "/Cargo.lock", "/README.md", "/LICENSE"]
+include = ["/src/**", "/tests/**", "/fixtures/**", "/Cargo.toml", "/Cargo.lock", "/README.md", "/CHANGELOG.md", "/LICENSE"]
 
 [dependencies]
 async-stream = "0.3"

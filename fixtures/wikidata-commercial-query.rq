@@ -1,0 +1,10 @@
+SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?image ?modified ?hot ?commercial WHERE {
+  VALUES ?class { wd:Q124714 wd:Q655311 wd:Q1004887 }
+  ?item wdt:P31/wdt:P279* ?class; wdt:P625 ?coord.
+  OPTIONAL { ?item wdt:P18 ?image. }
+  OPTIONAL { ?item schema:dateModified ?modified. }
+  BIND(EXISTS { ?item wdt:P31/wdt:P279* wd:Q177380 } AS ?hot)
+  BIND(EXISTS { VALUES ?bathClass { wd:Q655311 wd:Q1004887 } ?item wdt:P31/wdt:P279* ?bathClass. } AS ?commercial)
+  FILTER(?commercial)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+} ORDER BY ?item ?coord ?image LIMIT 100 OFFSET 0

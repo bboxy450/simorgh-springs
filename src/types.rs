@@ -17,7 +17,7 @@ pub enum SourceId {
     Gnis,
 }
 
-/// The five supported kinds. Taps are never folded into other records.
+/// Supported kinds. Taps are never folded into other records.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
 pub enum Kind {
@@ -25,6 +25,7 @@ pub enum Kind {
     Spring,
     NotPotable,
     Hot,
+    HotCommercial,
     Tap,
 }
 
@@ -32,20 +33,23 @@ impl Kind {
     pub(crate) fn compatible(self, other: Self) -> bool {
         match (self, other) {
             (Self::Tap, _) | (_, Self::Tap) => false,
-            (Self::Hot, Self::Hot) => true,
-            (Self::Hot, _) | (_, Self::Hot) => false,
+            (Self::Hot | Self::HotCommercial, Self::Hot | Self::HotCommercial) => true,
+            (Self::Hot | Self::HotCommercial, _) | (_, Self::Hot | Self::HotCommercial) => false,
             _ => true,
         }
     }
 }
 
-/// Nullable source values, each normalized to at most 40 Unicode scalars.
+/// Nullable source values. Text is limited to 40 Unicode scalars except hours
+/// (80); website is a complete HTTPS URL, never truncated.
 #[derive(Debug, Default, Clone, PartialEq, Eq, Serialize, Deserialize)]
 pub struct Vitals {
     pub fee: Option<String>,
     pub access: Option<String>,
     pub flow: Option<String>,
     pub temperature: Option<String>,
+    pub hours: Option<String>,
+    pub website: Option<String>,
 }
 
 /// A normalized source row. Missing timestamps remain null, never fabricated.

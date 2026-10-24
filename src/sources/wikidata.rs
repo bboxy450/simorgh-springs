@@ -6,7 +6,8 @@ use crate::{
 use serde::Deserialize;
 use std::collections::{BTreeMap, BTreeSet};
 
-/// Paged WDQS source. Hot classification uses the full subclass path.
+/// Paged WDQS source. Spring, onsen and thermal bath membership and hot
+/// classification use the full subclass path.
 #[derive(Debug, Clone)]
 pub struct Wikidata {
     pub endpoint: String,
@@ -25,7 +26,7 @@ impl Default for Wikidata {
 impl Wikidata {
     pub fn query(&self, offset: usize) -> String {
         format!(
-            "SELECT ?item ?itemLabel ?itemDescription ?coord ?image ?modified ?hot WHERE {{\n  ?item wdt:P31/wdt:P279* wd:Q124714; wdt:P625 ?coord.\n  OPTIONAL {{ ?item wdt:P18 ?image. }}\n  OPTIONAL {{ ?item schema:dateModified ?modified. }}\n  BIND(EXISTS {{ ?item wdt:P31/wdt:P279* wd:Q177380 }} AS ?hot)\n  SERVICE wikibase:label {{ bd:serviceParam wikibase:language \"en\". }}\n}} ORDER BY ?item ?coord ?image LIMIT {} OFFSET {}",
+            "SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?image ?modified ?hot ?commercial WHERE {{\n  VALUES ?class {{ wd:Q124714 wd:Q655311 wd:Q1004887 }}\n  ?item wdt:P31/wdt:P279* ?class; wdt:P625 ?coord.\n  OPTIONAL {{ ?item wdt:P18 ?image. }}\n  OPTIONAL {{ ?item schema:dateModified ?modified. }}\n  BIND(EXISTS {{ ?item wdt:P31/wdt:P279* wd:Q177380 }} AS ?hot)\n  BIND(EXISTS {{ VALUES ?bathClass {{ wd:Q655311 wd:Q1004887 }} ?item wdt:P31/wdt:P279* ?bathClass. }} AS ?commercial)\n  SERVICE wikibase:label {{ bd:serviceParam wikibase:language \"en\". }}\n}} ORDER BY ?item ?coord ?image LIMIT {} OFFSET {}",
             self.page_size, offset
         )
     }
@@ -70,7 +71,9 @@ impl Wikidata {
                 continue;
             };
             records.push(Record {
-                kind: if get("hot") == Some("true") {
+                kind: if get("commercial") == Some("true") {
+                    Kind::HotCommercial
+                } else if get("hot") == Some("true") {
                     Kind::Hot
                 } else {
                     Kind::Spring
